@@ -580,6 +580,11 @@
   font-family: Inter, sans-serif;
 }
 
+.nav-link-5.primary1 {
+  display: none;
+  color: #003e6b;
+}
+
 .text-block-2 {
   font-family: Inter, sans-serif;
 }
@@ -1335,6 +1340,14 @@
   align-items: stretch;
 }
 
+.div-block-18 {
+  display: none;
+}
+
+.div-block-19 {
+  display: none;
+}
+
 @media screen and (max-width: 991px) {
   .bg-white {
     width: 100%;
@@ -1783,6 +1796,10 @@
     text-align: center;
   }
 
+  .nav-link-5.primary1 {
+    display: block;
+  }
+
   .text-block-2.secondarycolour.tertiaryheading.neutral1 {
     margin-top: 10px;
   }
@@ -1796,6 +1813,11 @@
   .div-block-3.logodiv {
     width: 100%;
     min-width: 80px;
+  }
+
+  .button {
+    display: none;
+    text-align: left;
   }
 
   .div-block-5 {
@@ -1828,6 +1850,7 @@
   .nav-menu {
     position: relative;
     background-color: #fff;
+    text-align: left;
   }
 
   .grid {
@@ -1860,6 +1883,11 @@
     position: static;
     display: block;
     clear: none;
+    color: #0f609b;
+  }
+
+  .menu-button:active {
+    background-color: #bcccdc;
   }
 
   .image-4 {
