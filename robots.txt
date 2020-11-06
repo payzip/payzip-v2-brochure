@@ -1,0 +1,5 @@
+User-Agent: *
+Disallow:
+
+Sitemap: https://payzip.co.uk/sitemap.xml
+
