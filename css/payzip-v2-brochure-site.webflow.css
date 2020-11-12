@@ -1773,6 +1773,11 @@
     max-width: 3rem;
   }
 
+  .releasecontainer.releasewhite {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
   .releasecontainer.releaseblue {
     padding-right: 10px;
     padding-left: 10px;
