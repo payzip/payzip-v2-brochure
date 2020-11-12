@@ -1783,6 +1783,14 @@
     padding-left: 10px;
   }
 
+  .releaseheading {
+    text-align: center;
+  }
+
+  .releasedatetext {
+    text-align: center;
+  }
+
   .releasesectionheading {
     text-align: center;
   }
