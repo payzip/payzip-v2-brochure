@@ -1116,7 +1116,7 @@
 }
 
 .div-block-19 {
-  display: none;
+  display: block;
 }
 
 .releasenoteslegendicon {
@@ -1223,6 +1223,10 @@
 
 .text-block-3 {
   font-size: 0.875rem;
+}
+
+.list-item-2 {
+  display: none;
 }
 
 @media screen and (max-width: 991px) {
