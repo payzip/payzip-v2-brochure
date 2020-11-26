@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Fri Nov 20 2020 16:16:40 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Thu Nov 26 2020 10:45:17 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5fad1f813e490141dee25d04" data-wf-site="5f6b4b35ac47257ed7fa6454" lang="en">
 <head>
   <meta charset="utf-8">
@@ -67,6 +67,70 @@
         </div>
         <div id="w-node-59fbd07297eb-dee25d04" class="div-block releasenoteslegenddiv"><img src="images/improvement-icons8-idea.svg" loading="lazy" alt="Lightbulb icon" class="releasenoteslegendicon">
           <div>An improvement to an idea or process</div>
+        </div>
+      </div>
+      <div class="releasecontainer releasewhite">
+        <h2 class="releaseheading">v2.3</h2>
+        <div class="releasedatetext">26 November 2020</div>
+        <h3 class="releasesectionheading">General</h3>
+        <div class="w-layout-grid releasenoteitemgrid">
+          <div class="releaseitemdiv"><img src="images/improvement-icons8-idea.svg" loading="lazy" alt="Lightbulb icon" class="releasenoteitemcategory">
+            <div class="releasenoteitemdescription">Added a couple of &quot;waiting&quot; spinners to operations that take a few seconds, just so you know we&#x27;re not ingoring you.</div>
+          </div>
+          <div class="releaseitemdiv"><img src="images/improvement-icons8-idea.svg" loading="lazy" alt="Lightbulb icon" class="releasenoteitemcategory">
+            <div class="releasenoteitemdescription">When there are no invoices, members, or payments to show, we&#x27;ve added an option to quickly clear any filters that may be set. Of course, there might actually <em>be</em> no invoices, members, or payments too, but that&#x27;s a thing only you can change really.</div>
+          </div>
+          <div class="releaseitemdiv"><img src="images/improvement-icons8-idea.svg" loading="lazy" alt="Lightbulb icon" class="releasenoteitemcategory">
+            <div class="releasenoteitemdescription">We&#x27;ve moved the `Export` button to the bottom of each table and made it an `Export to CSV` link instead. Being alongside the count of (optionally-filtered) members/invoices/payments makes it more obvious <em>what</em> it is you&#x27;re exporting.</div>
+          </div>
+          <div class="releaseitemdiv"><img src="images/improvement-icons8-idea.svg" loading="lazy" alt="Lightbulb icon" class="releasenoteitemcategory">
+            <div class="releasenoteitemdescription">Don&#x27;t you hate it when using a `forgot password` feature and it doesn&#x27;t bring your email address through? So do we. We now bring the email address you tried logging in with across to the forgot password screen. If only everyone would do this!</div>
+          </div>
+          <div class="releaseitemdiv"><img src="images/bug-icons8-hammer.svg" loading="lazy" alt="Hammer icon" class="releasenoteitemcategory">
+            <div class="releasenoteitemdescription">After verifying your email, there could sometimes be a blue header banner on your Payzip account with no text in it. It&#x27;s a lovely blue, but now we only show it when we&#x27;ve got something to say to you as well.</div>
+          </div>
+          <div class="releaseitemdiv"><img src="images/bug-icons8-hammer.svg" loading="lazy" alt="Hammer icon" class="releasenoteitemcategory">
+            <div class="releasenoteitemdescription">At the moment, Payzip only supports club member operations on mobile. We weren&#x27;t telling our club admin users this though, so until they get their psychic powers back, we&#x27;ve added a message asking them to use the desktop version for the moment. We are working on a mobile view for all users though.</div>
+          </div>
+          <div class="releaseitemdiv"><img src="images/improvement-icons8-idea.svg" loading="lazy" alt="Lightbulb icon" class="releasenoteitemcategory">
+            <div class="releasenoteitemdescription">Speaking of mobile, the stats box and tabs now shrink out of the way when scrolling, so you&#x27;re just left with the time and status filters. Neat.</div>
+          </div>
+        </div>
+        <h3 class="releasesectionheading">Dashboard</h3>
+        <div class="w-layout-grid releasenoteitemgrid">
+          <div class="releaseitemdiv"><img src="images/improvement-icons8-idea.svg" loading="lazy" alt="Lightbulb icon" class="releasenoteitemcategory">
+            <div class="releasenoteitemdescription">We now keep the `Create Invoice` button on the dashboard, so if that&#x27;s what you&#x27;ve logged in to do, you can get right to it!</div>
+          </div>
+        </div>
+        <h3 class="releasesectionheading">Invoices</h3>
+        <div class="w-layout-grid releasenoteitemgrid">
+          <div class="releaseitemdiv"><img src="images/improvement-icons8-idea.svg" loading="lazy" alt="Lightbulb icon" class="releasenoteitemcategory">
+            <div class="releasenoteitemdescription">If an member invoice&#x27;s outstanding amount is less than £1, we prevent online payment. This saves the club unnecessary additional service fees.</div>
+          </div>
+          <div class="releaseitemdiv"><img src="images/bug-icons8-hammer.svg" loading="lazy" alt="Hammer icon" class="releasenoteitemcategory">
+            <div class="releasenoteitemdescription">Invoice reminder preferences were not being... um... remembered. Now when you exclude an invoice from being reminded, we&#x27;ll set that properly and show you the struckthrough bell icon when viewing your member&#x27;s copy of the invoice.</div>
+          </div>
+          <div class="releaseitemdiv"><img src="images/bug-icons8-hammer.svg" loading="lazy" alt="Hammer icon" class="releasenoteitemcategory">
+            <div class="releasenoteitemdescription">When you add a note to a member&#x27;s invoice, we now again show you a note icon for that when you&#x27;re viewing all your members&#x27; invoices.</div>
+          </div>
+          <div class="releaseitemdiv"><img src="images/bug-icons8-hammer.svg" loading="lazy" alt="Hammer icon" class="releasenoteitemcategory">
+            <div class="releasenoteitemdescription">When viewing a member&#x27;s invoice, the button to close it was called `Cancel`, which made it sound like you were cancelling the invoice itself. We now call it `Close`, to allay any fears.</div>
+          </div>
+        </div>
+        <h3 class="releasesectionheading">Members</h3>
+        <div class="w-layout-grid releasenoteitemgrid">
+          <div class="releaseitemdiv"><img src="images/improvement-icons8-idea.svg" loading="lazy" alt="Lightbulb icon" class="releasenoteitemcategory">
+            <div class="releasenoteitemdescription">When using `Select Members` mode, the `Manage Groups` option was inside a dropdown `called Options` containing one entry. We&#x27;ve moved this out onto the header bar now, so it&#x27;s more obvious you can select members, and then manage the groups they&#x27;re in.</div>
+          </div>
+          <div class="releaseitemdiv"><img src="images/improvement-icons8-idea.svg" loading="lazy" alt="Lightbulb icon" class="releasenoteitemcategory">
+            <div class="releasenoteitemdescription">`Delete` and `Edit` member buttons are now shown directly on the header of the member record. They were hidden away in `Options` previously. (Thanks, Simon T!)</div>
+          </div>
+          <div class="releaseitemdiv"><img src="images/improvement-icons8-idea.svg" loading="lazy" alt="Lightbulb icon" class="releasenoteitemcategory">
+            <div class="releasenoteitemdescription">We now show the member&#x27;s email address when viewing a specific member, as well as when they&#x27;re all shown together in a table. (Thanks again, Simon T!)</div>
+          </div>
+          <div class="releaseitemdiv"><img src="images/improvement-icons8-idea.svg" loading="lazy" alt="Lightbulb icon" class="releasenoteitemcategory">
+            <div class="releasenoteitemdescription">We&#x27;ve added `Import Members` as a separate button in the `Member` section of the system. You can still import members using the omniplus in the bottom right-hand corner of the screen, if you prefer.</div>
+          </div>
         </div>
       </div>
       <div class="releasecontainer releaseblue">
