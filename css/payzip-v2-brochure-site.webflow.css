@@ -86,7 +86,7 @@
   margin-bottom: 0px;
   padding: 140px 20px 0px;
   background-color: #003e6b;
-  background-image: url('../images/Payzip-Wallpaper-Tile-Footer.svg');
+  background-image: url('../images/Footer.svg');
   background-position: 0px 0px;
   background-size: 410px;
   background-clip: border-box;
@@ -487,12 +487,12 @@
   padding-top: 0px;
   padding-right: 0px;
   padding-left: 0px;
-  background-color: #f0f4f8;
+  background-color: #d9e2ec;
   font-family: Inter, sans-serif;
 }
 
 .body.releasenotes {
-  background-image: url('../images/Wallpaper-Tile.svg');
+  background-image: url('../images/Payzip-Wallpaper-Tile-80.svg');
   background-position: 0px 0px;
   background-size: 410px;
 }
@@ -669,6 +669,10 @@
   margin-top: 0px;
   background-color: #f0f4f8;
   text-align: center;
+}
+
+.button-2.learnmore.primary1 {
+  border-width: 0px;
 }
 
 .button-2.startnow {
@@ -1164,7 +1168,7 @@
 }
 
 .releasecontainer.releaseblue {
-  background-color: #d9e2ec;
+  background-color: #fff;
 }
 
 .releaseheading {
@@ -1350,7 +1354,7 @@
   }
 
   .bg-placeholder.heroplaceholder {
-    width: auto;
+    width: 100%;
     height: auto;
   }
 
@@ -1462,6 +1466,7 @@
   .button-2.startnow {
     position: static;
     width: 100%;
+    min-width: 200px;
     margin-right: 0px;
     margin-left: 0px;
     padding-right: 0px;
@@ -1602,6 +1607,10 @@
   .bg-placeholder.candoplaceholder {
     width: 99%;
     margin-top: 0px;
+  }
+
+  .bg-placeholder.heroplaceholder {
+    margin-bottom: 60px;
   }
 
   .navbar {
