@@ -2015,6 +2015,10 @@
     font-size: 1rem;
   }
 
+  .button.greatforbutton {
+    display: block;
+  }
+
   .image {
     width: 40%;
   }
@@ -2300,6 +2304,10 @@
   .button {
     display: none;
     text-align: left;
+  }
+
+  .button.greatforbutton {
+    display: block;
   }
 
   .image {
