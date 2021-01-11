@@ -799,6 +799,22 @@
   flex-direction: column;
 }
 
+.div-block-9.herosection.terms {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.div-block-9.herosection.privacy {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
 .div-block-9.copyrightdiv {
   position: static;
   left: 0%;
@@ -1544,6 +1560,11 @@
     line-height: 2rem;
   }
 
+  .heading.pageheader.homepage {
+    font-size: 7vw;
+    line-height: 7.5vw;
+  }
+
   .heading.featureheader.primary1 {
     font-size: 1rem;
   }
@@ -1901,7 +1922,8 @@
   }
 
   .text-block-7 {
-    font-size: 1.25rem;
+    font-size: 2.5vw;
+    line-height: 2.5vw;
   }
 }
 
@@ -1945,16 +1967,25 @@
   }
 
   .heading.featureheader.primary1 {
-    line-height: 1.25rem;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
   }
 
   .heading.featureheader.neutral1 {
     margin-top: 0px;
-    line-height: 1.25rem;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
+  }
+
+  .text-block.primary1 {
+    font-size: 1.125rem;
+    line-height: 1.5rem;
   }
 
   .text-block.neutral1 {
     margin-bottom: 20px;
+    font-size: 1.125rem;
+    line-height: 1.5rem;
   }
 
   .nav-link-2 {
@@ -2109,6 +2140,10 @@
     display: none;
   }
 
+  .text-block-7 {
+    font-size: 3.5vw;
+  }
+
   .icon {
     color: #dceefb;
   }
@@ -2182,9 +2217,22 @@
     margin-top: 20px;
   }
 
+  .footer-link {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+
   .bg-placeholder.candoplaceholder {
     height: 100%;
     text-align: center;
+  }
+
+  .bg-placeholder.heroplaceholder {
+    margin-bottom: 20px;
+  }
+
+  .div-block.paradiv {
+    margin-top: 20%;
   }
 
   .div-block.pricingcolumn.subscriptioncolumn {
@@ -2200,8 +2248,9 @@
   }
 
   .heading.pageheader {
-    font-size: 1.7rem;
-    line-height: 2rem;
+    margin-bottom: 30px;
+    font-size: 2.8rem;
+    line-height: 3rem;
   }
 
   .heading.pageheader.primary1.pricing {
@@ -2268,14 +2317,27 @@
 
   .button.greatforbutton {
     display: block;
+    width: 80vw;
+    height: 13vw;
+    padding-top: 3vw;
+    font-size: 7vw;
+    line-height: 7vw;
   }
 
   .image {
     position: static;
-    width: 40%;
+    width: 120px;
     height: auto;
     max-width: none;
-    margin-top: 19px;
+    margin-top: 15px;
+  }
+
+  .button-2.startnow {
+    width: 80vw;
+    height: 13vw;
+    min-width: 75px;
+    font-size: 7vw;
+    line-height: 7vw;
   }
 
   .div-block-5 {
@@ -2298,8 +2360,13 @@
   }
 
   .div-block-9.herosection {
+    max-width: none;
     padding-right: 0px;
     padding-left: 0px;
+  }
+
+  .div-block-9.herosection.collected {
+    margin-top: 10px;
   }
 
   .image-2 {
@@ -2517,7 +2584,8 @@
     width: 100%;
     padding-right: 10px;
     padding-left: 10px;
-    font-size: 1rem;
+    font-size: 4.7vw;
+    line-height: 4.5vw;
     text-align: center;
   }
 }
