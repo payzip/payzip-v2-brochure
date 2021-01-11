@@ -553,7 +553,7 @@
 }
 
 .nav-link-5.primary1 {
-  display: inline;
+  display: none;
   color: #003e6b;
 }
 
@@ -1440,6 +1440,11 @@
 
 .text-span {
   font-weight: 600;
+}
+
+.div-block-23 {
+  display: block;
+  width: auto;
 }
 
 @media screen and (max-width: 991px) {
