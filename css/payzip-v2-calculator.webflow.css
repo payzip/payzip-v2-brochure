@@ -2183,6 +2183,7 @@
   }
 
   .bg-placeholder.candoplaceholder {
+    height: 100%;
     text-align: center;
   }
 
