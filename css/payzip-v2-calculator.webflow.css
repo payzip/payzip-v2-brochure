@@ -521,33 +521,6 @@
   font-weight: 500;
 }
 
-.nav-link-3 {
-  font-family: Inter, sans-serif;
-}
-
-.nav-link-3.primary1 {
-  display: none;
-  color: #003e6b;
-}
-
-.nav-link-4 {
-  font-family: Inter, sans-serif;
-}
-
-.nav-link-4.primary1 {
-  min-width: 110px;
-  color: #dceefb;
-  font-size: 1.125rem;
-  font-weight: 500;
-}
-
-.nav-link-4.primary1 {
-  min-width: 110px;
-  color: #dceefb;
-  font-size: 1.125rem;
-  font-weight: 500;
-}
-
 .nav-link-5 {
   font-family: Inter, sans-serif;
 }
@@ -1611,14 +1584,6 @@
     font-family: Inter, sans-serif;
   }
 
-  .nav-link-4.primary1 {
-    min-width: 90px;
-  }
-
-  .nav-link-4.primary1 {
-    min-width: 90px;
-  }
-
   .nav-link-5.primary1 {
     display: none;
   }
@@ -1997,17 +1962,6 @@
     padding-right: 0px;
     padding-left: 0px;
     font-size: 1rem;
-  }
-
-  .nav-link-4.primary1 {
-    min-width: 75px;
-    padding-right: 10px;
-    padding-left: 10px;
-    font-size: 1rem;
-  }
-
-  .nav-link-4.primary1 {
-    display: block;
   }
 
   .nav-link-5.primary1 {
