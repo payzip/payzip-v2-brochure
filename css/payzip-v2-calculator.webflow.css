@@ -1492,6 +1492,11 @@
   list-style-type: none;
 }
 
+.list-3.homepage {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
 .list-item-4 {
   margin-bottom: 12px;
   padding-left: 42px;
