@@ -1467,6 +1467,7 @@
 }
 
 .text-block-5.pullquoteauthor {
+  width: 100%;
   margin-bottom: 60px;
   font-style: italic;
 }
