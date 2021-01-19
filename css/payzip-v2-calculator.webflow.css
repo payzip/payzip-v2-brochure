@@ -1514,6 +1514,34 @@
   width: auto;
 }
 
+.image-7 {
+  width: 100%;
+}
+
+.featurelightbox {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.lightboxtext {
+  font-size: 0.75rem;
+  font-weight: 300;
+  text-align: center;
+  text-decoration: none;
+}
+
+.lightboxtext.mobile {
+  display: none;
+}
+
+.lightboxtext.mobile.extramargin {
+  margin-top: 10px;
+}
+
+.lightboxtext.notmobile.extramargin {
+  margin-top: 10px;
+}
+
 @media screen and (max-width: 991px) {
   .bg-white {
     width: 100%;
@@ -2698,6 +2726,15 @@
     font-size: 4.7vw;
     line-height: 4.5vw;
     text-align: center;
+  }
+
+  .lightboxtext.mobile {
+    display: inline-block;
+    font-size: 0.875rem;
+  }
+
+  .lightboxtext.notmobile {
+    display: none;
   }
 }
 
