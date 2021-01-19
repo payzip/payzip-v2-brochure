@@ -1,0 +1,8 @@
+The following files failed to download during site export. Please check them in the designer assets view (images) or dashboard (fonts).
+
+fonts/Inter-Bold.ttf
+fonts/Inter-Light.ttf
+fonts/Inter-Medium.ttf
+fonts/Inter-Regular.ttf
+fonts/Inter-Regular.ttf
+fonts/Inter-SemiBold.ttf
