@@ -1,5 +1,4 @@
 User-Agent: *
-Disallow:
+Allow: /
 
-Sitemap: https://payzip.co.uk/sitemap.xml
-
+Sitemap: https://www.payzip.co.uk/sitemap.xml
