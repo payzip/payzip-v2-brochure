@@ -1639,6 +1639,10 @@
   line-height: 2.5rem;
 }
 
+.bold-text-4 {
+  color: #62b0e8;
+}
+
 @media screen and (max-width: 991px) {
   .bg-white {
     width: 100%;
