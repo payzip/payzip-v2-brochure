@@ -517,6 +517,8 @@
 }
 
 .nav-link-2 {
+  margin-right: 0px;
+  margin-left: 0px;
   font-family: Inter, sans-serif;
   color: #dceefb;
   font-size: 1.125rem;
@@ -937,7 +939,7 @@
 }
 
 .brand {
-  width: 43%;
+  width: 25%;
   text-align: left;
 }
 
