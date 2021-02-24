@@ -132,6 +132,15 @@
   background-attachment: scroll;
 }
 
+.bg-alternate.hero.cricket {
+  width: 100%;
+  min-height: 1200px;
+  background-image: url('../images/cricket-catch.jpg');
+  background-position: 50% 0%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .bg-alternate.bottomtestimonial {
   margin-bottom: 20px;
 }
@@ -470,9 +479,17 @@
 
 .heading.pageheader.landingpage.rugby {
   overflow: visible;
-  margin-top: 40px;
+  margin-top: 10px;
   font-size: 5rem;
   line-height: 5.5rem;
+}
+
+.heading.pageheader.landingpage.cricket {
+  width: auto;
+  margin-top: 20px;
+  color: #003e6b;
+  font-size: 4.5rem;
+  line-height: 5rem;
 }
 
 .heading.featureheader {
@@ -521,7 +538,7 @@
 
 .text-block.primary1 {
   color: #003e6b;
-  font-size: 1rem;
+  font-size: 1.125rem;
   line-height: 1.38rem;
   font-weight: 400;
 }
@@ -539,7 +556,7 @@
   margin-bottom: 20px;
   padding: 10px 0px;
   color: #102a43;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
 }
 
 .text-block.neutral1 {
@@ -1586,7 +1603,7 @@
 .text-block-5 {
   margin-bottom: 20px;
   color: #102a43;
-  font-size: 1.25rem;
+  font-size: 1.1255rem;
   line-height: 1.8rem;
   font-style: normal;
 }
@@ -1624,6 +1641,10 @@
   margin-top: 0px;
 }
 
+.text-block-5.football {
+  font-size: 1.125rem;
+}
+
 .text-block-6 {
   font-size: 1.125rem;
   line-height: 1.625rem;
@@ -1652,7 +1673,7 @@
   background-position: 0% 50%;
   background-size: contain;
   background-repeat: no-repeat;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
 }
 
 .bold-text-2 {
@@ -1681,7 +1702,7 @@
   padding: 0px;
   border-radius: 0px;
   color: #102a43;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   line-height: 2rem;
   text-align: left;
 }
@@ -1816,8 +1837,8 @@
   padding-right: 40px;
   padding-left: 40px;
   color: #003e6b;
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
   font-weight: 400;
   text-align: center;
 }
@@ -1948,7 +1969,7 @@
 
 .answertext {
   color: #003e6b;
-  font-size: 1.25rem;
+  font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
@@ -2056,6 +2077,10 @@
 
   .bg-alternate.hero.rugby {
     min-height: 500px;
+  }
+
+  .bg-alternate.hero.cricket {
+    min-height: 700px;
   }
 
   .bg-alternate.landingpagefaq {
@@ -2172,6 +2197,12 @@
   }
 
   .heading.pageheader.landingpage.rugby {
+    margin-top: 0px;
+    font-size: 3.5rem;
+    line-height: 4rem;
+  }
+
+  .heading.pageheader.landingpage.cricket {
     margin-top: 0px;
     font-size: 3.5rem;
     line-height: 4rem;
@@ -2626,7 +2657,7 @@
   }
 
   .pricingitemtext {
-    font-size: 1rem;
+    font-size: 1.125rem;
   }
 
   .grid-7 {
@@ -2727,6 +2758,11 @@
     line-height: 2.7rem;
   }
 
+  .heading.pageheader.landingpage.cricket {
+    font-size: 2.6rem;
+    line-height: 3.1rem;
+  }
+
   .heading.featureheader.primary1 {
     font-size: 1.125rem;
     line-height: 1.5rem;
@@ -2743,9 +2779,13 @@
     line-height: 1.5rem;
   }
 
+  .text-block.primary1.herobody.landingpage {
+    font-size: 1rem;
+  }
+
   .text-block.neutral1 {
     margin-bottom: 20px;
-    font-size: 1.125rem;
+    font-size: 1rem;
     line-height: 1.5rem;
   }
 
@@ -2930,6 +2970,10 @@
     width: 100%;
   }
 
+  .text-block-5 {
+    font-size: 1rem;
+  }
+
   .text-block-5.pullquote {
     margin-left: 20px;
   }
@@ -2943,6 +2987,10 @@
     margin-left: 20px;
   }
 
+  .text-block-5.football {
+    font-size: 1rem;
+  }
+
   .list-3.homepage {
     margin-left: 0px;
   }
@@ -2950,7 +2998,7 @@
   .list-item-4 {
     padding-left: 40px;
     background-position: 0% 0%;
-    font-size: 1.1125rem;
+    font-size: 1rem;
   }
 
   .text-block-7 {
@@ -2958,7 +3006,7 @@
   }
 
   .text-block-7.moneycollected.landingpage {
-    font-size: 1.125rem;
+    font-size: 1rem;
   }
 
   .icon {
@@ -2997,7 +3045,7 @@
   .tipstext {
     padding-right: 20px;
     padding-left: 20px;
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 1.5rem;
   }
 
@@ -3017,8 +3065,16 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
 
+  .answertext {
+    font-size: 1rem;
+  }
+
   .pricingdefinition {
     line-height: 1.625rem;
+  }
+
+  .pricingitemtext {
+    font-size: 1rem;
   }
 
   .grid-7 {
@@ -3029,6 +3085,7 @@
 
   .text-block-9 {
     margin-top: 20px;
+    font-size: 1rem;
   }
 
   .div-block-31 {
@@ -3085,6 +3142,10 @@
     height: 250px;
     background-size: cover;
     background-attachment: scroll;
+  }
+
+  .bg-alternate.hero.cricket {
+    min-height: 400px;
   }
 
   .bg-alternate.bottomtestimonial {
@@ -3195,6 +3256,12 @@
     margin-top: 20px;
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .heading.pageheader.landingpage.cricket {
+    margin-top: 0px;
+    font-size: 1.7rem;
+    line-height: 2.2rem;
   }
 
   .heading.featureheader.primary1 {
@@ -3658,6 +3725,7 @@
     padding-right: 0px;
     padding-left: 0px;
     font-size: 1rem;
+    text-align: left;
   }
 
   .leadmagnetheader {
@@ -3676,6 +3744,10 @@
 
   .questionsgroup.football {
     margin-bottom: 40px;
+  }
+
+  .answertext {
+    font-size: 1rem;
   }
 
   .text-block-9 {
