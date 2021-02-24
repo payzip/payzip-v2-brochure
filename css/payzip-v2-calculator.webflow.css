@@ -62,8 +62,7 @@
 }
 
 .bg-alternate.navsection {
-  position: -webkit-sticky;
-  position: sticky;
+  position: relative;
   top: 0px;
   bottom: auto;
   z-index: auto;
@@ -71,6 +70,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  overflow: visible;
   width: 100%;
   min-height: 86px;
   padding-right: 20px;
@@ -101,10 +101,6 @@
   height: 100%;
   min-height: 1000px;
   background-color: transparent;
-  background-image: url('../images/stock-photo-rugby-players-tackling-during-game-at-the-park-325167287.jpg');
-  background-position: 50% 0%;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .bg-alternate.hero.football {
@@ -123,6 +119,16 @@
   background-image: url('../images/payzip-goalposts-smaller.jpg');
   background-position: 50% 0%;
   background-size: cover;
+  background-attachment: scroll;
+}
+
+.bg-alternate.hero.rugby {
+  position: static;
+  overflow: visible;
+  background-image: url('../images/rugby-players-tackle.jpg');
+  background-position: 50% 0%;
+  background-size: cover;
+  background-repeat: no-repeat;
   background-attachment: scroll;
 }
 
@@ -290,8 +296,11 @@
 
 .div-block.paradiv.hero.landingpage {
   position: relative;
+  z-index: 1;
+  overflow: visible;
   width: 100%;
   margin-top: 0rem;
+  border: 1px none #000;
 }
 
 .div-block.sectioncontentdiv {
@@ -369,19 +378,27 @@
 }
 
 .navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: 9999;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   width: 100%;
+  height: 86px;
+  margin-top: 0px;
+  padding-right: 20px;
+  padding-left: 20px;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-box-align: stretch;
-  -webkit-align-items: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-align-self: auto;
   -ms-flex-item-align: auto;
   align-self: auto;
@@ -389,7 +406,7 @@
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
-  background-color: transparent;
+  background-color: #003e6b;
   -o-object-fit: fill;
   object-fit: fill;
 }
@@ -452,7 +469,10 @@
 }
 
 .heading.pageheader.landingpage.rugby {
-  margin-top: -3vh;
+  overflow: visible;
+  margin-top: 40px;
+  font-size: 5rem;
+  line-height: 5.5rem;
 }
 
 .heading.featureheader {
@@ -701,7 +721,7 @@
 .image {
   width: 118px;
   height: 26px;
-  margin-top: 16px;
+  margin-top: 0px;
 }
 
 .button-2 {
@@ -1896,12 +1916,6 @@
   text-decoration: none;
 }
 
-.heading-3 {
-  margin-top: 0px;
-  color: #003e6b;
-  text-align: center;
-}
-
 .questionsgroup {
   margin-top: 40px;
   margin-bottom: 60px;
@@ -2040,6 +2054,10 @@
     background-attachment: scroll;
   }
 
+  .bg-alternate.hero.rugby {
+    min-height: 500px;
+  }
+
   .bg-alternate.landingpagefaq {
     padding-right: 40px;
     padding-left: 40px;
@@ -2151,6 +2169,12 @@
     margin-top: 27%;
     font-size: 3.6rem;
     line-height: 4.1rem;
+  }
+
+  .heading.pageheader.landingpage.rugby {
+    margin-top: 0px;
+    font-size: 3.5rem;
+    line-height: 4rem;
   }
 
   .heading.featureheader.primary1 {
@@ -2696,6 +2720,12 @@
     line-height: 2.5rem;
   }
 
+  .heading.pageheader.landingpage.rugby {
+    margin-top: 16px;
+    font-size: 2.2rem;
+    line-height: 2.7rem;
+  }
+
   .heading.featureheader.primary1 {
     font-size: 1.125rem;
     line-height: 1.5rem;
@@ -3152,6 +3182,12 @@
   .heading.pageheader.landingpage {
     width: auto;
     margin-top: 95px;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .heading.pageheader.landingpage.rugby {
+    margin-top: 20px;
     font-size: 1.5rem;
     line-height: 2rem;
   }
@@ -3971,7 +4007,7 @@
     grid-row-start: 8;
   }
 
-  #w-node-_8af39543-d079-1caf-6f70-e3320d3f4c59-8942bcb1 {
+  #w-node-_8af39543-d079-1caf-6f70-e3320d3f4c59-28a5ec2e {
     -ms-grid-column-span: 1;
     grid-column-end: 2;
     -ms-grid-column: 1;
@@ -3982,7 +4018,7 @@
     grid-row-start: 2;
   }
 
-  #w-node-_8af39543-d079-1caf-6f70-e3320d3f4c65-8942bcb1 {
+  #w-node-_8af39543-d079-1caf-6f70-e3320d3f4c65-28a5ec2e {
     -ms-grid-column-span: 1;
     grid-column-end: 2;
     -ms-grid-column: 1;
@@ -3993,7 +4029,7 @@
     grid-row-start: 1;
   }
 
-  #w-node-_8af39543-d079-1caf-6f70-e3320d3f4c6c-8942bcb1 {
+  #w-node-_8af39543-d079-1caf-6f70-e3320d3f4c6c-28a5ec2e {
     -ms-grid-column-span: 1;
     grid-column-end: 2;
     -ms-grid-column: 1;
@@ -4004,7 +4040,7 @@
     grid-row-start: 3;
   }
 
-  #w-node-_8af39543-d079-1caf-6f70-e3320d3f4c73-8942bcb1 {
+  #w-node-_8af39543-d079-1caf-6f70-e3320d3f4c73-28a5ec2e {
     -ms-grid-column-span: 1;
     grid-column-end: 2;
     -ms-grid-column: 1;
@@ -4015,7 +4051,7 @@
     grid-row-start: 4;
   }
 
-  #w-node-_8af39543-d079-1caf-6f70-e3320d3f4c7c-8942bcb1 {
+  #w-node-_8af39543-d079-1caf-6f70-e3320d3f4c7c-28a5ec2e {
     -ms-grid-column-span: 1;
     grid-column-end: 2;
     -ms-grid-column: 1;
@@ -4026,7 +4062,7 @@
     grid-row-start: 6;
   }
 
-  #w-node-_8af39543-d079-1caf-6f70-e3320d3f4c88-8942bcb1 {
+  #w-node-_8af39543-d079-1caf-6f70-e3320d3f4c88-28a5ec2e {
     -ms-grid-column-span: 1;
     grid-column-end: 2;
     -ms-grid-column: 1;
@@ -4037,7 +4073,7 @@
     grid-row-start: 5;
   }
 
-  #w-node-_8af39543-d079-1caf-6f70-e3320d3f4c8f-8942bcb1 {
+  #w-node-_8af39543-d079-1caf-6f70-e3320d3f4c8f-28a5ec2e {
     -ms-grid-column-span: 1;
     grid-column-end: 2;
     -ms-grid-column: 1;
@@ -4048,7 +4084,7 @@
     grid-row-start: 7;
   }
 
-  #w-node-_8af39543-d079-1caf-6f70-e3320d3f4c96-8942bcb1 {
+  #w-node-_8af39543-d079-1caf-6f70-e3320d3f4c96-28a5ec2e {
     -ms-grid-column-span: 1;
     grid-column-end: 2;
     -ms-grid-column: 1;
