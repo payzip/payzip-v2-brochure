@@ -134,7 +134,8 @@
 
 .bg-alternate.hero.cricket {
   width: 100%;
-  min-height: 1200px;
+  height: 70vh;
+  min-height: auto;
   background-image: url('../images/cricket-catch.jpg');
   background-position: 50% 0%;
   background-size: cover;
@@ -486,10 +487,19 @@
 
 .heading.pageheader.landingpage.cricket {
   width: auto;
-  margin-top: 20px;
+  margin-top: 15px;
+  margin-left: 364px;
   color: #003e6b;
-  font-size: 4.5rem;
-  line-height: 5rem;
+  font-size: 3.5rem;
+  line-height: 4rem;
+}
+
+.heading.pageheader.landingpage.cricket.althero {
+  width: 100%;
+  margin-top: 7vh;
+  margin-left: 0px;
+  font-size: 4.6vw;
+  line-height: 5vw;
 }
 
 .heading.featureheader {
@@ -2038,6 +2048,77 @@
   width: auto;
 }
 
+.grid-8 {
+  grid-row-gap: 16px;
+}
+
+.grid-9 {
+  width: 100%;
+  -ms-grid-rows: minmax(0px, 1fr) auto;
+  grid-template-rows: minmax(0px, 1fr) auto;
+}
+
+.div-block-34 {
+  width: 100%;
+}
+
+.image-9 {
+  height: auto;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 1280px) {
+  .heading.pageheader.landingpage.cricket {
+    margin-top: 80px;
+    margin-left: 588px;
+    font-size: 3.5rem;
+    line-height: 4rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .bg-alternate.hero.cricket {
+    height: 70vh;
+    min-height: auto;
+    min-width: auto;
+    background-image: url('../images/cricket-catch.jpg');
+    background-position: 50% 45%;
+    background-size: cover;
+  }
+
+  .heading.pageheader.landingpage.cricket {
+    margin-top: 20px;
+    margin-left: 666px;
+    font-size: 3.5rem;
+    line-height: 4rem;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .bg-alternate.hero.cricket {
+    background-image: url('../images/cricket-catch.jpg');
+    background-position: 50% 40%;
+    background-size: cover;
+  }
+
+  .heading.pageheader.landingpage.cricket {
+    margin-top: 30px;
+    margin-left: 865px;
+  }
+
+  .heading.pageheader.landingpage.cricket.althero {
+    margin-top: 6vh;
+    font-size: 4.4vw;
+  }
+
+  .image-9 {
+    max-width: none;
+    -o-object-fit: fill;
+    object-fit: fill;
+  }
+}
+
 @media screen and (max-width: 991px) {
   .bg-white {
     width: 100%;
@@ -2080,7 +2161,8 @@
   }
 
   .bg-alternate.hero.cricket {
-    min-height: 700px;
+    height: 70vh;
+    min-height: auto;
   }
 
   .bg-alternate.landingpagefaq {
@@ -2203,9 +2285,17 @@
   }
 
   .heading.pageheader.landingpage.cricket {
-    margin-top: 0px;
-    font-size: 3.5rem;
-    line-height: 4rem;
+    margin-top: 37px;
+    margin-left: 220px;
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+
+  .heading.pageheader.landingpage.cricket.althero {
+    margin-top: 4vh;
+    padding-left: 0px;
+    font-size: 4.6vw;
+    line-height: 5vw;
   }
 
   .heading.featureheader.primary1 {
@@ -2710,6 +2800,12 @@
     background-attachment: scroll;
   }
 
+  .bg-alternate.hero.cricket {
+    height: 70vh;
+    min-width: 100%;
+    background-position: 50% 0%;
+  }
+
   .footer {
     padding: 40px 20px;
   }
@@ -2759,8 +2855,19 @@
   }
 
   .heading.pageheader.landingpage.cricket {
-    font-size: 2.6rem;
-    line-height: 3.1rem;
+    margin-top: 0px;
+    margin-left: 35vw;
+    border-width: 1px;
+    border-color: #000;
+    font-size: 1.9rem;
+    line-height: 2.4rem;
+  }
+
+  .heading.pageheader.landingpage.cricket.althero {
+    margin-top: 2vh;
+    padding-left: 0px;
+    font-size: 4.5vw;
+    line-height: 5vw;
   }
 
   .heading.featureheader.primary1 {
@@ -2989,6 +3096,7 @@
 
   .text-block-5.football {
     font-size: 1rem;
+    line-height: 1.5rem;
   }
 
   .list-3.homepage {
@@ -3098,6 +3206,11 @@
 
   .div-block-33 {
     width: 15%;
+  }
+
+  .grid-9 {
+    -ms-grid-rows: minmax(0px, 1fr);
+    grid-template-rows: minmax(0px, 1fr);
   }
 }
 
@@ -3260,8 +3373,16 @@
 
   .heading.pageheader.landingpage.cricket {
     margin-top: 0px;
-    font-size: 1.7rem;
-    line-height: 2.2rem;
+    margin-left: 35px;
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .heading.pageheader.landingpage.cricket.althero {
+    margin-top: 1vh;
+    padding-left: 0px;
+    font-size: 4.5vw;
+    line-height: 5.3vw;
   }
 
   .heading.featureheader.primary1 {
@@ -3768,6 +3889,13 @@
     width: 25%;
     text-align: left;
   }
+
+  .grid-9 {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    -ms-grid-rows: 1fr auto;
+    grid-template-rows: 1fr auto;
+  }
 }
 
 #w-node-c87d4a75-e4fc-ea2d-b10b-75d41dd9f4e9-61e8ff6d {
@@ -3859,6 +3987,30 @@
   grid-row-start: 2;
   -ms-grid-row-span: 1;
   grid-row-end: 3;
+}
+
+#w-node-_01931dfa-73e3-c5b2-4e55-199fa809f580-61e08615 {
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 2;
+  grid-row-end: 3;
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-column-span: 2;
+  grid-column-end: 3;
+  -ms-grid-column-align: stretch;
+  justify-self: stretch;
+}
+
+#w-node-e1794f17-60e7-a47d-1205-5d9e816d204a-61e08615 {
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-column-span: 0;
+  grid-column-end: 2;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
 }
 
 @media screen and (max-width: 991px) {
