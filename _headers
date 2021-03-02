@@ -1,2 +1,28 @@
 /*
   X-Frame-Options: DENY
+
+# Cache fonts forever
+/fonts/*
+  Cache-Control: public
+  Cache-Control: max-age=365000000
+  Cache-Control: immutable
+
+# Cache images for a week
+/images/*
+  Cache-Control: public
+  Cache-Control: max-age=604800
+
+# Cache open graph images for a week
+/opengraph/*
+  Cache-Control: public
+  Cache-Control: max-age=604800
+
+# Cache JavaScript for a day
+/js/*
+  Cache-Control: public
+  Cache-Control: max-age=86400
+
+# Cache CSS for a day
+/css/*
+  Cache-Control: public
+  Cache-Control: max-age=86400
