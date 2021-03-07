@@ -11,6 +11,7 @@ https://payzip.co.uk/* https://www.payzip.co.uk/:splat 301!
 /humanrace/adidas%20human%20race%20blue.php /
 /index.php /
 /team/ /
-/features-and-pricing/ /pricing
+/features-and-pricing/ /
 /faq.html https://help.payzip.co.uk/
 /england-athletics-club-faq.html https://help.payzip.co.uk/
+/privacy/ /privacy-policy
