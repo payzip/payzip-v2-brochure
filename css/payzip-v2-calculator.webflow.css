@@ -2180,9 +2180,14 @@
     line-height: 4.1vw;
   }
 
+  .text-block-5.pullquote {
+    font-size: 1.7vw;
+    line-height: 2.2vw;
+  }
+
   .text-block-5.pullquote.landingpage {
-    font-size: 2.4vw;
-    line-height: 3vw;
+    font-size: 1.7vw;
+    line-height: 2.2vw;
   }
 
   .herogrid.newhome {
@@ -2217,13 +2222,13 @@
   }
 
   .text-block-5.pullquote {
-    font-size: 2vw;
-    line-height: 2.6vw;
+    font-size: 1.5vw;
+    line-height: 2vw;
   }
 
   .text-block-5.pullquote.landingpage {
-    font-size: 1.8vw;
-    line-height: 2.4vw;
+    font-size: 1.5vw;
+    line-height: 2vw;
   }
 
   .herogrid.newhome {
