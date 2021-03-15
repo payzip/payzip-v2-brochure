@@ -110,9 +110,7 @@
   overflow: visible;
   width: 100%;
   min-height: 86px;
-  padding-right: 20px;
-  padding-bottom: 0px;
-  padding-left: 20px;
+  padding: 0px 20px;
   -webkit-box-align: stretch;
   -webkit-align-items: stretch;
   -ms-flex-align: stretch;
@@ -1021,6 +1019,7 @@
 }
 
 .div-block-9.herosection.privacy {
+  padding-top: 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -4043,36 +4042,6 @@
   }
 }
 
-#w-node-_11925c10-50fd-b599-9fc6-7faebe8e3f82-a0e8ff6f {
-  -ms-grid-column: 1;
-  grid-column-start: 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: 2;
-  -ms-grid-row: 1;
-  grid-row-start: 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
-  -ms-grid-column-align: auto;
-  justify-self: auto;
-  -ms-grid-row-align: start;
-  align-self: start;
-}
-
-#w-node-bff6ea84-d0d0-9cad-f7e7-902987e1d4b7-a0e8ff6f {
-  -ms-grid-column: 2;
-  grid-column-start: 2;
-  -ms-grid-column-span: 1;
-  grid-column-end: 3;
-  -ms-grid-row: 1;
-  grid-row-start: 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
-  -ms-grid-column-align: auto;
-  justify-self: auto;
-  -ms-grid-row-align: start;
-  align-self: start;
-}
-
 #w-node-_11925c10-50fd-b599-9fc6-7faebe8e3f82-0de8ff71 {
   -ms-grid-column: 1;
   grid-column-start: 1;
@@ -4368,17 +4337,6 @@
     grid-row-start: 8;
   }
 
-  #w-node-bff6ea84-d0d0-9cad-f7e7-902987e1d4b7-a0e8ff6f {
-    -ms-grid-row: 2;
-    grid-row-start: 2;
-    -ms-grid-row-span: 1;
-    grid-row-end: 3;
-    -ms-grid-column: 1;
-    grid-column-start: 1;
-    -ms-grid-column-span: 1;
-    grid-column-end: 2;
-  }
-
   #w-node-_1326b2d3-60a5-702d-80f6-814e3f7d9213-3f7d9211 {
     -ms-grid-column-span: 1;
     grid-column-end: 2;
@@ -4485,17 +4443,6 @@
 }
 
 @media screen and (max-width: 479px) {
-  #w-node-bff6ea84-d0d0-9cad-f7e7-902987e1d4b7-a0e8ff6f {
-    -ms-grid-column: 1;
-    grid-column-start: 1;
-    -ms-grid-column-span: 1;
-    grid-column-end: 2;
-    -ms-grid-row: 2;
-    grid-row-start: 2;
-    -ms-grid-row-span: 1;
-    grid-row-end: 3;
-  }
-
   #w-node-_51293c68-c127-4165-c6e6-239aaef05a96-0de8ff71 {
     -ms-grid-column: 1;
     grid-column-start: 1;
