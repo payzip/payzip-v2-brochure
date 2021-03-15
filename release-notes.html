@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Wed Mar 10 2021 17:09:18 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Mon Mar 15 2021 12:39:01 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="6014106737293d6f0de8ff71" data-wf-site="5fdb79c3607513932195a6f1" lang="en">
 <head>
   <meta charset="utf-8">
@@ -66,6 +66,64 @@
           </div>
           <div id="w-node-_1a21b12e-0a15-407d-84aa-59fbd07297eb-0de8ff71" class="div-block releasenoteslegenddiv"><img src="images/improvement-icons8-idea.svg" loading="lazy" alt="Lightbulb icon" class="releasenoteslegendicon">
             <div class="releaselegend">An improvement to an idea or process</div>
+          </div>
+        </div>
+      </div>
+      <div class="releasecontainer releaseblue">
+        <h2 class="releaseheading">v2.8</h2>
+        <div class="releasedatetext">12 March 2021</div>
+        <h3 class="releasesectionheading">General</h3>
+        <div class="w-layout-grid releasenoteitemgrid">
+          <div class="releaseitemdiv"><img src="images/improvement-icons8-idea.svg" loading="lazy" alt="Lightbulb icon" class="releasenoteitemcategory">
+            <div class="releasenoteitemdescription">Huge performance improvement - we now store and calculate your available and pending club balances instead of retrieving them from Stripe each time.</div>
+          </div>
+          <div class="releaseitemdiv"><img src="images/improvement-icons8-idea.svg" loading="lazy" alt="Lightbulb icon" class="releasenoteitemcategory">
+            <div class="releasenoteitemdescription">More performance improvements - data is now paginated at the server, so your data gets to your browser faster.</div>
+          </div>
+          <div class="releaseitemdiv"><img src="images/improvement-icons8-idea.svg" loading="lazy" alt="Lightbulb icon" class="releasenoteitemcategory">
+            <div class="releasenoteitemdescription">We&#x27;ve improved how the Payzip front-end handles API requests. Take our word for it on that one.</div>
+          </div>
+          <div class="releaseitemdiv"><img src="images/bug-icons8-hammer.svg" loading="lazy" alt="Hammer icon" class="releasenoteitemcategory">
+            <div class="releasenoteitemdescription">When Payzip takes your first card payment, we send you an email. We had a bug where that only happened if the first payment for the club was a card payment (rather than cash, cheque etc.). Now the email is sent whenever you actually take your first card payment.</div>
+          </div>
+          <div class="releaseitemdiv"><img src="images/bug-icons8-hammer.svg" loading="lazy" alt="Hammer icon" class="releasenoteitemcategory">
+            <div class="releasenoteitemdescription">When filtering a table involving members, Payzip was only showing one group maximum per member. It now shows all groups for all members, behind the usual numbered group button, where you click to view them all.</div>
+          </div>
+          <div class="releaseitemdiv"><img src="images/bug-icons8-hammer.svg" loading="lazy" alt="Hammer icon" class="releasenoteitemcategory">
+            <div class="releasenoteitemdescription">When applying a filter or an additional filter to a table, Payzip now switches to page 1 of the results, as you&#x27;d expect.</div>
+          </div>
+          <div class="releaseitemdiv"><img src="images/bug-icons8-hammer.svg" loading="lazy" alt="Hammer icon" class="releasenoteitemcategory">
+            <div class="releasenoteitemdescription">Clicking through to the next page at the bottom of a table used to leave the view at the bottom of the table, which is of little use to anyone. We now show the top of the table when showing a new page, which is more likely what you want to see.</div>
+          </div>
+          <div class="releaseitemdiv"><img src="images/bug-icons8-hammer.svg" loading="lazy" alt="Hammer icon" class="releasenoteitemcategory">
+            <div class="releasenoteitemdescription">The &quot;loading data&quot; spinners now disappear when Payzip is done presenting the data. Previously they disappeared in-between receiving the data and presenting it in your browser.</div>
+          </div>
+        </div>
+        <h3 class="releasesectionheading">Invoices</h3>
+        <div class="w-layout-grid releasenoteitemgrid">
+          <div class="releaseitemdiv"><img src="images/improvement-icons8-idea.svg" loading="lazy" alt="Lightbulb icon" class="releasenoteitemcategory">
+            <div class="releasenoteitemdescription">Payzip protects you from inadvertently nagging members by placing a minimum 3-hour window between sending reminders. However, this was being enforced when resending after a member&#x27;s email address was edited, so we now treat these as separate actions.</div>
+          </div>
+          <div class="releaseitemdiv"><img src="images/improvement-icons8-idea.svg" loading="lazy" alt="Lightbulb icon" class="releasenoteitemcategory">
+            <div class="releasenoteitemdescription">After creating a new invoice, it wasn&#x27;t added to the Invoices index page until it was refreshed. We now update the page automatically after the invoice is created.</div>
+          </div>
+          <div class="releaseitemdiv"><img src="images/improvement-icons8-idea.svg" loading="lazy" alt="Lightbulb icon" class="releasenoteitemcategory">
+            <div class="releasenoteitemdescription">Performance improvement - when opening an invoice we now show the window first and continue loading data in the background.</div>
+          </div>
+          <div class="releaseitemdiv"><img src="images/improvement-icons8-idea.svg" loading="lazy" alt="Lightbulb icon" class="releasenoteitemcategory">
+            <div class="releasenoteitemdescription">On mobile, we&#x27;ve added a &quot;Show more&quot; button when there are more than 15 invoices to show. Pressing it will give you the next 15 invoices.</div>
+          </div>
+          <div class="releaseitemdiv"><img src="images/bug-icons8-hammer.svg" loading="lazy" alt="Hammer icon" class="releasenoteitemcategory">
+            <div class="releasenoteitemdescription">Club admins paying their own invoices in the &quot;My invoices&quot; view were switched to their club dashboard upon payment. Admins now stay in &quot;My invoices&quot; until they&#x27;re ready to switch views themselves.</div>
+          </div>
+          <div class="releaseitemdiv"><img src="images/bug-icons8-hammer.svg" loading="lazy" alt="Hammer icon" class="releasenoteitemcategory">
+            <div class="releasenoteitemdescription">After editing an invoice, Payzip is meant to pre-select all members for you, so you can easily resend the updated invoice. Now it does.</div>
+          </div>
+        </div>
+        <h3 class="releasesectionheading">Settings</h3>
+        <div class="w-layout-grid releasenoteitemgrid">
+          <div class="releaseitemdiv"><img src="images/bug-icons8-hammer.svg" loading="lazy" alt="Hammer icon" class="releasenoteitemcategory">
+            <div class="releasenoteitemdescription">Removing a club admin whilst they were still logged-in caused the app to crash if that admin refreshed their browser page. Now it either switches them to another club, if they are an admin elsewhere, or shows the &quot;My invoices&quot; page if not.</div>
           </div>
         </div>
       </div>
