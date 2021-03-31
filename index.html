@@ -561,5 +561,22 @@
     }
   })
 </script>
+<script type="text/javascript">
+// get query string params
+if (window.location.search) {
+  const baseUrl = "https://staging.payzip.co.uk/cookie"
+  const code = window.location.search.replace(/\?/g, '')
+          .split('&')
+          .filter(q => q.includes('refer'))[0]
+          .split('=')[1]
+  if (code) {
+    const iframe = document.createElement("iframe");
+    iframe.setAttribute("id", "refereriframe")
+    iframe.setAttribute('src', `${baseUrl}/?referer=${code}`)
+    iframe.setAttribute('style', 'display:none;')
+    document.body.appendChild(iframe);
+  }
+}
+</script>
 </body>
 </html>
