@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Mon Mar 15 2021 12:49:25 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Tue Apr 20 2021 11:39:00 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="603bd6eb5dc3e9310676d8b6" data-wf-site="5fdb79c3607513932195a6f1" lang="en">
 <head>
   <meta charset="utf-8">
@@ -43,9 +43,9 @@
         <a href="https://blog.payzip.co.uk/" rel="noopener" target="_blank" class="nav-link-5 primary1 w-nav-link">Blog</a>
         <a href="https://dashboard.payzip.co.uk/signin" rel="noopener" class="nav-link-5 primary1 w-nav-link">Sign in</a>
         <a href="https://dashboard.payzip.co.uk/signup" rel="noopener" class="nav-link-5 primary1 w-nav-link">Sign up</a>
-        <a href="https://dashboard.payzip.co.uk/signin" rel="noopener" class="nav-link-2 w-nav-link">Sign in</a>
+        <a href="https://dashboard.payzip.co.uk/signin" rel="noopener" class="nav-link-2 referrerurl w-nav-link">Sign in</a>
       </div>
-      <a rel="nofollow" href="https://dashboard.payzip.co.uk/signup" class="button w-button">Sign up</a>
+      <a rel="nofollow" href="https://dashboard.payzip.co.uk/signup" class="button referrerurl w-button">Sign up</a>
       <link rel="prefetch" href="https://dashboard.payzip.co.uk/signup">
     </nav>
     <div class="menu-button w-nav-button">
@@ -217,7 +217,7 @@
       </div>
       <div class="text-block-7 moneycollected landingpage">You can collect money for just about anything using Payzip.</div>
       <div class="div-block-7 rightbutton homepage firstcta landingpage">
-        <a href="https://dashboard.payzip.co.uk/signup" class="button-2 startnow football w-button">Start collecting now</a>
+        <a href="https://dashboard.payzip.co.uk/signup" class="button-2 startnow football referrerurl w-button">Start collecting now</a>
         <link rel="prefetch" href="https://dashboard.payzip.co.uk/signup">
         <div class="text-block-8">Risk-free: No credit card required. No setup fees. No subscription.</div>
       </div>
@@ -375,7 +375,7 @@
           <div class="pricingdivlightborders"></div>
           <div class="div-block-6 bottompricingbutton pricing football">
             <div class="div-block-7 rightbutton pricing">
-              <a href="https://dashboard.payzip.co.uk/signup" class="button-2 startnow bottombutton w-button">Start collecting now</a>
+              <a href="https://dashboard.payzip.co.uk/signup" class="button-2 startnow bottombutton referrerurl w-button">Start collecting now</a>
               <link rel="prefetch" href="https://dashboard.payzip.co.uk/signup">
               <div class="text-block-8 football">Risk-free: No credit card required. No setup fees. No subscription.</div>
             </div>
@@ -561,22 +561,48 @@
     }
   })
 </script>
-<script type="text/javascript">
-// get query string params
-if (window.location.search) {
-  const baseUrl = "https://staging.payzip.co.uk/cookie"
-  const code = window.location.search.replace(/\?/g, '')
-          .split('&')
-          .filter(q => q.includes('refer'))[0]
-          .split('=')[1]
+  <script>
+const setCookie = (name, value, expiry) => {
+  let expires = ""
+  if (expiry) {
+    const date = new Date()
+    date.setTime(date.getTime() + expiry * 24 * 60 * 60 * 1000)
+    expires = "; expires=" + date.toUTCString()
+  }
+  document.cookie = `${name}=${value || ""}${expires}; path=/`
+}
+const getCookie = () => {
+  const code = document.cookie
+    .split(";")
+    .find((r) => r.trim().startsWith("referrer="))
+    .split("=")[1]
   if (code) {
-    const iframe = document.createElement("iframe");
-    iframe.setAttribute("id", "refereriframe")
-    iframe.setAttribute('src', `${baseUrl}/?referer=${code}`)
-    iframe.setAttribute('style', 'display:none;')
-    document.body.appendChild(iframe);
+    rewriteUrls(code)
   }
 }
+const rewriteUrls = (code) => {
+  Array.prototype.map.call(
+    document.getElementsByClassName("referrerurl"),
+    link => link.setAttribute('href', `${link.getAttribute('href')}?referrer=${code}`)
+   )
+}
+if (window.location.search) {
+	const baseUrl = "https://dashboard.payzip.co.uk/cookie"
+  const code = window.location.search
+    .replace(/\?/g, "")
+    .split("&")
+    .filter((q) => q.includes("referrer"))[0]
+    .split("=")[1]
+  if (code) {
+    setCookie("referrer", code, 90)
+    	const iframe = document.createElement("iframe");
+      iframe.setAttribute("id", "refereriframe")
+      iframe.setAttribute('src', `${baseUrl}/?referrer=${code}`)
+      iframe.setAttribute('style', 'display:none;')
+      document.body.appendChild(iframe); 
+  }
+}
+getCookie()
 </script>
 </body>
 </html>

@@ -68,6 +68,10 @@
   background-color: #fff;
 }
 
+.bg-white.newhome-faqs.affiliates {
+  background-color: #f0f4f8;
+}
+
 .bg-white.cricket {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -157,6 +161,14 @@
 .bg-alternate.newhomebenefits {
   padding-top: 60px;
   padding-bottom: 60px;
+  background-color: #f0f4f8;
+}
+
+.bg-alternate.affiliates {
+  background-color: #e0fcff;
+}
+
+.bg-alternate.affiliate {
   background-color: #f0f4f8;
 }
 
@@ -398,6 +410,10 @@
   object-fit: fill;
 }
 
+.navbar.affiliates {
+  background-color: #87eaf2;
+}
+
 .heading {
   clear: none;
   font-family: Inter, sans-serif;
@@ -495,6 +511,11 @@
   font-weight: 500;
 }
 
+.heading.pageheader.landingpage.cricket.althero.newhome.affiliates {
+  color: #044e54;
+  font-weight: 700;
+}
+
 .heading.pageheader.landingpage.cricket.althero.athletics {
   margin-top: 0%;
   padding-right: 5%;
@@ -519,7 +540,7 @@
 
 .heading.featureheader.neutral1 {
   margin-bottom: 20px;
-  color: #334e68;
+  color: #102a43;
   font-size: 1.6rem;
   line-height: 1.625rem;
   font-weight: 600;
@@ -577,11 +598,19 @@
   color: #f0f4f8;
 }
 
+.text-block.primary1.herobody.newhome.affiliates {
+  color: #044e54;
+}
+
 .text-block.neutral1 {
   width: 100%;
   color: #102a43;
   font-size: 1.125rem;
   line-height: 1.625rem;
+}
+
+.text-block.neutral1.affiliates {
+  margin-bottom: 0px;
 }
 
 .text-block.pricingpertransaction {
@@ -657,6 +686,10 @@
   background-size: 410px;
 }
 
+.body.affiliates {
+  background-color: #e0fcff;
+}
+
 .nav-link-2 {
   margin-right: 0px;
   margin-left: 0px;
@@ -664,6 +697,15 @@
   color: #dceefb;
   font-size: 1.125rem;
   font-weight: 500;
+}
+
+.nav-link-2.w--current {
+  color: #0a6c74;
+  font-weight: 500;
+}
+
+.nav-link-2.affiliates {
+  color: #044e54;
 }
 
 .nav-link-5 {
@@ -752,6 +794,12 @@
   color: #003e6b;
   font-size: 1.125rem;
   font-weight: 500;
+}
+
+.button.affiliates {
+  background-color: #044e54;
+  color: #e0fcff;
+  text-align: center;
 }
 
 .image {
@@ -1260,6 +1308,10 @@
   grid-template-rows: auto auto auto auto;
 }
 
+.div-block-12.paylogos {
+  text-align: center;
+}
+
 .image-4 {
   width: 80px;
   max-width: 80px;
@@ -1754,7 +1806,13 @@
 
 .featurelightbox {
   width: 100%;
+  min-width: auto;
   margin-top: 20px;
+  text-align: left;
+}
+
+.featurelightbox.affiliates {
+  max-width: 300px;
 }
 
 .lightboxtext {
@@ -1973,6 +2031,11 @@
   text-decoration: none;
 }
 
+.lightbox-link-4.affiliates {
+  width: 100%;
+  text-align: center;
+}
+
 .questionsgroup {
   margin-top: 40px;
   margin-bottom: 60px;
@@ -1980,6 +2043,11 @@
 
 .questionsgroup.football {
   margin-bottom: 0px;
+}
+
+.questionsgroup.football.affiliates {
+  margin-top: 0px;
+  margin-bottom: 20px;
 }
 
 .question {
@@ -1998,6 +2066,10 @@
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
+}
+
+.question.affiliatefaqquestion1 {
+  margin-top: 0px;
 }
 
 .questiontext {
@@ -2100,6 +2172,11 @@
   background-image: linear-gradient(180deg, #003e6b, #0a558c);
 }
 
+.herogrid.newhome.affiliates {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#87eaf2), to(#bef8fd));
+  background-image: linear-gradient(180deg, #87eaf2, #bef8fd);
+}
+
 .image-9 {
   width: 100%;
   -o-object-fit: fill;
@@ -2137,6 +2214,7 @@
 
 .image-11 {
   width: 100%;
+  max-height: none;
   min-width: 100%;
 }
 
@@ -2149,6 +2227,101 @@
   display: block;
   height: 146px;
   margin-top: -146px;
+}
+
+.lukebutton {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.lukebuttondiv {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.affiliatestrategieslist {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  color: #102a43;
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+  list-style-type: disc;
+}
+
+.superscript {
+  position: relative;
+  top: -4px;
+  font-size: 0.875rem;
+}
+
+.affiliatesignupbutton {
+  margin-top: 10px;
+  border-radius: 8px;
+  background-color: #044e54;
+  color: #e0fcff;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+
+.section {
+  width: 100%;
+}
+
+.affiliatepromotionmethoddiv {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.affiliatepromotionmethodtext {
+  margin-left: 20px;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+  color: #102a43;
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+}
+
+.affiliatepromotionmethodimage {
+  max-width: 50px;
+}
+
+.affiliatepromotionalstrategiesgrid {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  justify-items: stretch;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  grid-row-gap: 20px;
+}
+
+.affiliatewholistitem {
+  margin-bottom: 10px;
+  padding-left: 30px;
+  background-image: url('../images/check-circle.svg');
+  background-position: 0% 50%;
+  background-size: auto;
+  background-repeat: no-repeat;
+  list-style-type: none;
+}
+
+.text-span-6 {
+  font-weight: 600;
 }
 
 @media screen and (min-width: 1280px) {
@@ -2275,8 +2448,8 @@
 @media screen and (max-width: 991px) {
   .bg-white {
     width: 100%;
-    padding-right: 40px;
-    padding-left: 40px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
 
   .bg-white.secondtestimonial.newhome {
@@ -2433,6 +2606,10 @@
     font-size: 1.25rem;
   }
 
+  .heading.featureheader.neutral1.featuresgrid.faqs.affiliates {
+    margin-bottom: 20px;
+  }
+
   .heading.featureheader.neutral1.featuresgrid.pricing {
     margin-bottom: 0px;
   }
@@ -2449,6 +2626,10 @@
   }
 
   .text-block.primary1.herobody.landingpage {
+    font-size: 1.125rem;
+  }
+
+  .text-block.primary1.herobody.newhome.affiliates {
     font-size: 1.125rem;
   }
 
@@ -2630,6 +2811,11 @@
   }
 
   .div-block-9.pricing.football {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .div-block-9.faqs.football.affiliates {
     padding-right: 20px;
     padding-left: 20px;
   }
@@ -2894,6 +3080,11 @@
     padding-left: 20px;
     text-align: left;
   }
+
+  .herogrid.newhome.affiliates {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -2956,6 +3147,10 @@
     line-height: 2.4rem;
   }
 
+  .heading.pageheader.landingpage.cricket.althero.newhome.affiliates {
+    margin-top: 20px;
+  }
+
   .heading.featureheader.primary1 {
     font-size: 1.125rem;
     line-height: 1.5rem;
@@ -2976,6 +3171,10 @@
     font-size: 1rem;
   }
 
+  .text-block.primary1.herobody.newhome.affiliates {
+    margin-bottom: 20px;
+  }
+
   .text-block.neutral1 {
     margin-bottom: 20px;
     font-size: 1rem;
@@ -2991,6 +3190,10 @@
     padding-right: 0px;
     padding-left: 0px;
     font-size: 1rem;
+  }
+
+  .nav-link-2.affiliates {
+    display: none;
   }
 
   .nav-link-5.primary1 {
@@ -3324,6 +3527,21 @@
     align-items: stretch;
     grid-auto-flow: row;
   }
+
+  .affiliatestrategieslist {
+    padding-left: 0px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .affiliatestrategieslist.affiliatesbenefits {
+    padding-left: 20px;
+  }
+
+  .affiliatepromotionmethodtext {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -3397,6 +3615,11 @@
   .bg-alternate.newhomebenefits {
     padding-top: 40px;
     padding-bottom: 40px;
+  }
+
+  .bg-alternate.affiliates {
+    padding-right: 20px;
+    padding-left: 20px;
   }
 
   .footer {
@@ -3649,9 +3872,20 @@
     margin-top: 0px;
   }
 
+  .div-block-9.faqs.football.affiliates {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
   .image-2 {
     width: 25%;
     margin-right: 0px;
+  }
+
+  .image-2.affiliates {
+    width: 20%;
+    margin-right: 10px;
+    margin-left: 0px;
   }
 
   .brand {
@@ -3726,11 +3960,18 @@
     margin-left: 10px;
   }
 
+  .grid-4.affiliates {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+
   .div-block-12.paylogos {
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+    margin-top: 0px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    text-align: center;
   }
 
   .menu-button {
@@ -3755,6 +3996,10 @@
 
   .div-block-13.screenshot {
     margin-top: 0px;
+  }
+
+  .div-block-13.screenshot.affiliates {
+    margin-top: 20px;
   }
 
   .heading-2.comingsoon {
@@ -3906,6 +4151,10 @@
     font-size: 1.25rem;
   }
 
+  .featurelightbox.affiliates {
+    max-width: 200px;
+  }
+
   .lightboxtext.mobile {
     display: inline-block;
     font-size: 0.875rem;
@@ -4028,6 +4277,17 @@
     grid-template-rows: minmax(200px, 0.75fr) minmax(auto, 1fr);
   }
 
+  .herogrid.newhome.affiliates {
+    padding-right: 20px;
+    padding-left: 20px;
+    grid-auto-flow: row;
+    grid-auto-columns: 1fr;
+    -ms-grid-columns: minmax(250px, 1fr);
+    grid-template-columns: minmax(250px, 1fr);
+    -ms-grid-rows: 0.75fr minmax(auto, 1fr);
+    grid-template-rows: 0.75fr minmax(auto, 1fr);
+  }
+
   .heroimagegrid {
     grid-column-gap: 0px;
     -ms-grid-columns: 1fr 1fr;
@@ -4039,6 +4299,22 @@
     grid-row-gap: 0px;
     -ms-grid-columns: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
+  }
+
+  .affiliatestrategieslist {
+    text-align: left;
+  }
+
+  .affiliatepromotionmethodtext {
+    margin-left: 10px;
+  }
+
+  .affiliatepromotionalstrategiesgrid {
+    grid-row-gap: 10px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
   }
 }
 
@@ -4211,6 +4487,28 @@
   grid-row-start: 1;
   -ms-grid-row-span: 1;
   grid-row-end: 2;
+}
+
+#w-node-_01931dfa-73e3-c5b2-4e55-199fa809f580-09ab109a {
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 2;
+  grid-row-end: 3;
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-column-span: 1;
+  grid-column-end: 3;
+}
+
+#w-node-_17d6e588-18ac-4e66-5bf5-268da30a568f-09ab109a {
+  -ms-grid-column-span: 1;
+  grid-column-end: 2;
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-row-span: 2;
+  grid-row-end: 3;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
 }
 
 @media screen and (max-width: 991px) {
@@ -4440,6 +4738,110 @@
     -ms-grid-row-align: auto;
     align-self: auto;
   }
+
+  #w-node-_01931dfa-73e3-c5b2-4e55-199fa809f580-09ab109a {
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-row-span: 2;
+    grid-row-end: 2;
+  }
+
+  #w-node-_17d6e588-18ac-4e66-5bf5-268da30a568f-09ab109a {
+    -ms-grid-column-span: 3;
+    grid-column-end: 3;
+    -ms-grid-row: 2;
+    grid-row-start: 2;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+  }
+
+  #w-node-_6f92c638-7adf-1537-dc34-b3664291b90e-09ab109a {
+    -ms-grid-column-span: 1;
+    grid-column-end: 2;
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: 3;
+    -ms-grid-row: 2;
+    grid-row-start: 2;
+  }
+
+  #w-node-_6f92c638-7adf-1537-dc34-b3664291b917-09ab109a {
+    -ms-grid-column-span: 1;
+    grid-column-end: 2;
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: 2;
+    -ms-grid-row: 1;
+    grid-row-start: 1;
+  }
+
+  #w-node-_6f92c638-7adf-1537-dc34-b3664291b91e-09ab109a {
+    -ms-grid-column-span: 1;
+    grid-column-end: 2;
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: 4;
+    -ms-grid-row: 3;
+    grid-row-start: 3;
+  }
+
+  #w-node-_6f92c638-7adf-1537-dc34-b3664291b925-09ab109a {
+    -ms-grid-column-span: 1;
+    grid-column-end: 2;
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: 5;
+    -ms-grid-row: 4;
+    grid-row-start: 4;
+  }
+
+  #w-node-_6f92c638-7adf-1537-dc34-b3664291b931-09ab109a {
+    -ms-grid-column-span: 1;
+    grid-column-end: 2;
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: 7;
+    -ms-grid-row: 6;
+    grid-row-start: 6;
+  }
+
+  #w-node-_6f92c638-7adf-1537-dc34-b3664291b93d-09ab109a {
+    -ms-grid-column-span: 1;
+    grid-column-end: 2;
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: 6;
+    -ms-grid-row: 5;
+    grid-row-start: 5;
+  }
+
+  #w-node-_6f92c638-7adf-1537-dc34-b3664291b944-09ab109a {
+    -ms-grid-column-span: 1;
+    grid-column-end: 2;
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: 8;
+    -ms-grid-row: 7;
+    grid-row-start: 7;
+  }
+
+  #w-node-_6f92c638-7adf-1537-dc34-b3664291b94b-09ab109a {
+    -ms-grid-column-span: 1;
+    grid-column-end: 2;
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: 9;
+    -ms-grid-row: 8;
+    grid-row-start: 8;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -4488,6 +4890,22 @@
     grid-row-start: 3;
     -ms-grid-row-span: 1;
     grid-row-end: 4;
+  }
+
+  #w-node-_01931dfa-73e3-c5b2-4e55-199fa809f580-09ab109a {
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: 2;
+    -ms-grid-row-span: 2;
+    grid-row-end: 2;
+  }
+
+  #w-node-_17d6e588-18ac-4e66-5bf5-268da30a568f-09ab109a {
+    -ms-grid-row: 2;
+    grid-row-start: 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: 2;
   }
 }
 
