@@ -2324,6 +2324,37 @@
   font-weight: 600;
 }
 
+.sectionadbanner {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #003e6b;
+}
+
+.divadbanner {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 10px 15px;
+  border-radius: 12px;
+  background-color: #fadb5f;
+  color: #102a43;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 500;
+  text-align: center;
+}
+
 @media screen and (min-width: 1280px) {
   .heading.pageheader.landingpage.cricket {
     margin-top: 80px;
@@ -2448,13 +2479,18 @@
 @media screen and (max-width: 991px) {
   .bg-white {
     width: 100%;
-    padding-right: 0px;
-    padding-left: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
   }
 
   .bg-white.secondtestimonial.newhome {
     padding-right: 20px;
     padding-left: 20px;
+  }
+
+  .bg-white.newhome-faqs.affiliates {
+    padding-right: 0px;
+    padding-left: 0px;
   }
 
   .bg-alternate {
@@ -2474,6 +2510,11 @@
   .bg-alternate.landingpagefaq {
     padding-right: 40px;
     padding-left: 40px;
+  }
+
+  .bg-alternate.affiliate {
+    padding-right: 0px;
+    padding-left: 0px;
   }
 
   .footer {
@@ -3088,8 +3129,18 @@
 }
 
 @media screen and (max-width: 767px) {
+  .bg-white {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
   .bg-white.bottomtestimonial {
     padding-bottom: 20px;
+  }
+
+  .bg-white.newhome-faqs.affiliates {
+    padding-right: 0px;
+    padding-left: 0px;
   }
 
   .bg-alternate.navsection {
@@ -3102,6 +3153,11 @@
     -ms-flex-align: stretch;
     align-items: stretch;
     text-align: left;
+  }
+
+  .bg-alternate.affiliate {
+    padding-right: 0px;
+    padding-left: 0px;
   }
 
   .footer {
@@ -3564,6 +3620,11 @@
     padding-bottom: 40px;
   }
 
+  .bg-white.newhome-faqs.affiliates {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
   .bg-white.cricket {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -3618,6 +3679,11 @@
   }
 
   .bg-alternate.affiliates {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .bg-alternate.affiliate {
     padding-right: 20px;
     padding-left: 20px;
   }
@@ -4315,6 +4381,10 @@
     grid-template-columns: 1fr;
     -ms-grid-rows: auto;
     grid-template-rows: auto;
+  }
+
+  .divadbanner {
+    border-radius: 0px;
   }
 }
 
