@@ -164,10 +164,6 @@
   background-color: #f0f4f8;
 }
 
-.bg-alternate.affiliates {
-  background-color: #e0fcff;
-}
-
 .bg-alternate.affiliate {
   background-color: #f0f4f8;
 }
@@ -302,42 +298,6 @@
   object-fit: fill;
 }
 
-.div-block.sectioncontentdiv {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  margin-top: 0px;
-  margin-bottom: 40px;
-  padding-top: 0px;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-flex-wrap: wrap;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-align-content: space-around;
-  -ms-flex-line-pack: distribute;
-  align-content: space-around;
-  -webkit-align-self: auto;
-  -ms-flex-item-align: auto;
-  align-self: auto;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-}
-
 .div-block.pricingcolumn {
   width: 100%;
   min-height: auto;
@@ -352,11 +312,6 @@
   border: 0px solid #000;
   border-radius: 15px;
   background-color: transparent;
-}
-
-.div-block.pricingcolumn.subscriptioncolumn {
-  min-height: 854px;
-  background-color: #dceefb;
 }
 
 .div-block.releasenoteslegenddiv {
@@ -436,11 +391,6 @@
   color: #003e6b;
   font-size: 1.875rem;
   text-align: left;
-}
-
-.heading.pageheader.primary1.pricing {
-  margin-bottom: 90px;
-  text-align: center;
 }
 
 .heading.pageheader.primary1.releasenotes {
@@ -1050,14 +1000,6 @@
   align-items: flex-start;
 }
 
-.div-block-9.herosection.pricinghero {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-}
-
 .div-block-9.herosection.terms {
   padding-top: 0px;
   -webkit-box-orient: vertical;
@@ -1265,15 +1207,6 @@
   text-align: left;
 }
 
-.grid-2.pricingcolumnsgrid {
-  width: 850px;
-  max-width: 1000px;
-  -ms-grid-columns: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: auto auto;
-  grid-template-rows: auto auto;
-}
-
 .grid-2.releasenoteslegend {
   width: auto;
   height: auto;
@@ -1316,18 +1249,6 @@
 .image-4 {
   width: 80px;
   max-width: 80px;
-}
-
-.pricingcolumnheader {
-  width: 100%;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  font-family: Inter, sans-serif;
-  color: #102a43;
-  font-size: 2.125rem;
-  line-height: 2.75rem;
-  font-weight: 300;
-  text-align: center;
 }
 
 .div-block-14 {
@@ -1382,13 +1303,6 @@
   line-height: 2.75rem;
 }
 
-.heading-2.comingsoon {
-  margin-top: 280px;
-  color: #003e6b;
-  font-size: 1.5rem;
-  font-weight: 300;
-}
-
 .pricingtransactionfee {
   position: static;
   display: inline-block;
@@ -1403,44 +1317,6 @@
 .pricingdivlightborders {
   width: 100%;
   margin-top: 0px;
-}
-
-.pricingplanfeaturesright {
-  width: 100%;
-  text-align: right;
-}
-
-.pricingplanfeaturesleft {
-  width: 100%;
-  text-align: left;
-}
-
-.grid-5 {
-  margin-top: 0px;
-  padding-right: 32px;
-  padding-left: 32px;
-  grid-row-gap: 16px;
-  -ms-grid-columns: 2.25fr 1fr;
-  grid-template-columns: 2.25fr 1fr;
-  -ms-grid-rows: auto auto;
-  grid-template-rows: auto auto;
-}
-
-.pricingplanfeaturetext {
-  color: #334e68;
-  font-size: 1.125rem;
-  line-height: 1.5rem;
-}
-
-.pricingplanfeaturevalue {
-  color: #102a43;
-  font-size: 1.125rem;
-  line-height: 1.5rem;
-  font-weight: 500;
-}
-
-.image-6 {
-  width: 1.5rem;
 }
 
 .utility-page-wrap {
@@ -2250,24 +2126,6 @@
   margin-top: -146px;
 }
 
-.lukebutton {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  border-radius: 8px;
-}
-
-.lukebuttondiv {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  text-align: center;
-}
-
 .affiliatestrategieslist {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -2278,12 +2136,6 @@
   list-style-type: disc;
 }
 
-.superscript {
-  position: relative;
-  top: -4px;
-  font-size: 0.875rem;
-}
-
 .affiliatesignupbutton {
   margin-top: 10px;
   border-radius: 8px;
@@ -2292,10 +2144,6 @@
   font-size: 1.25rem;
   line-height: 1.5rem;
   font-weight: 500;
-}
-
-.section {
-  width: 100%;
 }
 
 .affiliatepromotionmethoddiv {
@@ -2582,30 +2430,6 @@
     flex-direction: column;
   }
 
-  .div-block.sectioncontentdiv {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    width: 100%;
-    margin-bottom: 0px;
-    padding-right: 20px;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-pack: start;
-    -webkit-justify-content: flex-start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    -webkit-box-align: start;
-    -webkit-align-items: flex-start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-    text-align: center;
-  }
-
   .div-block.releasenoteslegenddiv {
     text-align: left;
   }
@@ -2627,11 +2451,6 @@
   .heading.pageheader.primary1 {
     font-size: 1.25rem;
     line-height: 1.5rem;
-  }
-
-  .heading.pageheader.primary1.pricing {
-    margin-bottom: 40px;
-    font-size: 1.5rem;
   }
 
   .heading.pageheader.primary1.releasenotes {
@@ -2840,10 +2659,6 @@
     align-items: flex-start;
   }
 
-  .div-block-9.herosection.pricinghero {
-    padding-top: 40px;
-  }
-
   .div-block-9.herosection.terms {
     padding-right: 0px;
     padding-left: 0px;
@@ -2918,11 +2733,6 @@
     padding: 0px;
   }
 
-  .grid-2.pricingcolumnsgrid {
-    width: 700px;
-    grid-column-gap: 30px;
-  }
-
   .grid-2.releasenoteslegend {
     margin-right: 0px;
     margin-left: 0px;
@@ -2946,25 +2756,12 @@
     margin-left: 20px;
   }
 
-  .pricingcolumnheader {
-    font-size: 2rem;
-    line-height: 2.5rem;
-  }
-
   .div-block-14 {
     margin-top: 40px;
   }
 
   .pricingdivlightborders {
     margin-top: 10px;
-  }
-
-  .pricingplanfeaturetext {
-    font-size: 1rem;
-  }
-
-  .pricingplanfeaturevalue {
-    font-size: 1rem;
   }
 
   .div-block-18 {
@@ -3367,13 +3164,6 @@
     grid-template-rows: auto auto;
   }
 
-  .grid-2.pricingcolumnsgrid {
-    width: 500px;
-    grid-auto-flow: column;
-    -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
-  }
-
   .grid-3 {
     grid-auto-flow: row;
     grid-row-gap: 41px;
@@ -3699,11 +3489,6 @@
     padding-bottom: 40px;
   }
 
-  .bg-alternate.affiliates {
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-
   .bg-alternate.affiliate {
     padding-right: 20px;
     padding-left: 20px;
@@ -3752,10 +3537,6 @@
     text-align: left;
   }
 
-  .div-block.pricingcolumn.subscriptioncolumn {
-    min-height: 180px;
-  }
-
   .navbar {
     width: 100%;
     padding-left: 10px;
@@ -3774,10 +3555,6 @@
     margin-bottom: 30px;
     font-size: 1.8rem;
     line-height: 2.3rem;
-  }
-
-  .heading.pageheader.primary1.pricing {
-    font-size: 1rem;
   }
 
   .heading.pageheader.primary1.releasenotes {
@@ -4028,10 +3805,6 @@
     margin-left: 10px;
   }
 
-  .grid-2.pricingcolumnsgrid {
-    width: 100%;
-  }
-
   .grid-2.releasenoteslegend {
     grid-auto-flow: column;
     -ms-grid-rows: auto auto auto auto;
@@ -4092,15 +3865,6 @@
 
   .div-block-13.screenshot.affiliates {
     margin-top: 20px;
-  }
-
-  .heading-2.comingsoon {
-    margin-top: 20px;
-  }
-
-  .grid-5 {
-    padding-right: 10px;
-    padding-left: 10px;
   }
 
   .div-block-19 {
