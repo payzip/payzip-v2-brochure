@@ -1059,6 +1059,7 @@
 }
 
 .div-block-9.herosection.terms {
+  padding-top: 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1624,6 +1625,11 @@
   grid-template-rows: auto;
 }
 
+.releasenoteitemgrid.affiliatetermsconditions {
+  margin-bottom: 40px;
+  grid-row-gap: 20px;
+}
+
 .list-item-2 {
   display: none;
 }
@@ -1633,7 +1639,7 @@
 }
 
 .termsconditionslink {
-  position: static;
+  position: relative;
   margin-bottom: 20px;
   -webkit-box-flex: 0;
   -webkit-flex: 0 auto;
@@ -1652,6 +1658,21 @@
 
 .list-2.privacypolicy {
   list-style-type: disc;
+}
+
+.list-2.affiliatetermsconditions {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.list-2.affiliatetermsconditions.alphabullet {
+  list-style-type: lower-alpha;
+}
+
+.list-2.affiliatetermsconditions.numeralbullet {
+  list-style-type: lower-roman;
 }
 
 .termsconditionsclausebullettext {
@@ -3761,6 +3782,11 @@
 
   .heading.pageheader.primary1.releasenotes {
     font-size: 1.75rem;
+  }
+
+  .heading.pageheader.primary1.releasenotes.terms {
+    font-size: 1.9rem;
+    line-height: 2.4rem;
   }
 
   .heading.pageheader.landingpage.rugby {
