@@ -369,6 +369,10 @@
   background-color: #87eaf2;
 }
 
+.navbar.affiliates.hockeywales {
+  background-color: #003e6b;
+}
+
 .heading {
   clear: none;
   font-family: Inter, sans-serif;
@@ -466,6 +470,10 @@
   font-weight: 700;
 }
 
+.heading.pageheader.landingpage.cricket.althero.newhome.affiliates.hockeywales {
+  color: #84c5f4;
+}
+
 .heading.pageheader.landingpage.cricket.althero.athletics {
   margin-top: 0%;
   padding-right: 5%;
@@ -550,6 +558,10 @@
 
 .text-block.primary1.herobody.newhome.affiliates {
   color: #044e54;
+}
+
+.text-block.primary1.herobody.newhome.affiliates.hockeywales {
+  color: #dceefb;
 }
 
 .text-block.neutral1 {
@@ -804,6 +816,11 @@
 
 .button-2.startnow.tipsbutton {
   width: 400px;
+}
+
+.button-2.startnow.football.referrerurl.hockeywales {
+  width: auto;
+  min-width: auto;
 }
 
 .div-block-5 {
@@ -1645,6 +1662,11 @@
   margin-bottom: 20px;
 }
 
+.list-3.homepage.hockeywales {
+  margin-bottom: 40px;
+  margin-left: 40px;
+}
+
 .list-item-4 {
   margin-bottom: 12px;
   padding-left: 42px;
@@ -2074,6 +2096,11 @@
   background-image: linear-gradient(180deg, #87eaf2, #bef8fd);
 }
 
+.herogrid.newhome.affiliates.hockeywales {
+  background-color: #232020;
+  background-image: none;
+}
+
 .image-9 {
   width: 100%;
   -o-object-fit: fill;
@@ -2144,6 +2171,11 @@
   font-size: 1.25rem;
   line-height: 1.5rem;
   font-weight: 500;
+}
+
+.affiliatesignupbutton.hockeywales {
+  background-color: #84c5f4;
+  color: #003e6b;
 }
 
 .affiliatepromotionmethoddiv {
@@ -2221,6 +2253,18 @@
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 500;
+  text-align: center;
+}
+
+.buttondiv {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   text-align: center;
 }
 
@@ -2568,6 +2612,11 @@
 
   .button-2.startnow.tipsbutton {
     width: 350px;
+  }
+
+  .button-2.startnow.football.referrerurl.hockeywales {
+    padding-right: 10px;
+    padding-left: 10px;
   }
 
   .div-block-5 {
@@ -2943,6 +2992,10 @@
   .herogrid.newhome.affiliates {
     padding-right: 20px;
     padding-left: 20px;
+  }
+
+  .affiliatesignupbutton.hockeywales.w--current {
+    margin-top: 20px;
   }
 }
 
@@ -3588,6 +3641,10 @@
     line-height: 8.5vw;
   }
 
+  .heading.pageheader.landingpage.cricket.althero.newhome.affiliates.hockeywales {
+    margin-top: 0px;
+  }
+
   .heading.featureheader.primary1 {
     margin-top: 20px;
     margin-bottom: 10px;
@@ -3626,6 +3683,11 @@
     margin-bottom: 0px;
     font-size: 1rem;
     line-height: 1.3125rem;
+  }
+
+  .text-block.neutral1.hockeywales {
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   .div-section-header.collecting {
@@ -3676,6 +3738,10 @@
 
   .button-2.startnow.football {
     margin-top: 0px;
+  }
+
+  .button-2.startnow.football.referrerurl.hockeywales {
+    width: 100%;
   }
 
   .div-block-5 {
@@ -3978,6 +4044,10 @@
     margin-left: 0px;
   }
 
+  .list-3.homepage.hockeywales {
+    margin-left: 0px;
+  }
+
   .list-item-4 {
     margin-bottom: 15px;
     font-size: 1rem;
@@ -4113,6 +4183,7 @@
 
   .div-block-33 {
     width: 25%;
+    padding-left: 0px;
     text-align: left;
   }
 
@@ -4144,6 +4215,10 @@
     grid-template-rows: 0.75fr minmax(auto, 1fr);
   }
 
+  .herogrid.newhome.affiliates.hockeywales {
+    padding-top: 0px;
+  }
+
   .heroimagegrid {
     grid-column-gap: 0px;
     -ms-grid-columns: 1fr 1fr;
@@ -4159,6 +4234,11 @@
 
   .affiliatestrategieslist {
     text-align: left;
+  }
+
+  .affiliatesignupbutton.hockeywales.w--current {
+    width: 100%;
+    text-align: center;
   }
 
   .affiliatepromotionmethodtext {
@@ -4361,6 +4441,28 @@
 }
 
 #w-node-_17d6e588-18ac-4e66-5bf5-268da30a568f-09ab109a {
+  -ms-grid-column-span: 1;
+  grid-column-end: 2;
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-row-span: 2;
+  grid-row-end: 3;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+}
+
+#w-node-_01931dfa-73e3-c5b2-4e55-199fa809f580-27df4077 {
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 2;
+  grid-row-end: 3;
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-column-span: 1;
+  grid-column-end: 3;
+}
+
+#w-node-_17d6e588-18ac-4e66-5bf5-268da30a568f-27df4077 {
   -ms-grid-column-span: 1;
   grid-column-end: 2;
   -ms-grid-column: 1;
@@ -4702,6 +4804,22 @@
     -ms-grid-row: 8;
     grid-row-start: 8;
   }
+
+  #w-node-_01931dfa-73e3-c5b2-4e55-199fa809f580-27df4077 {
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-row-span: 2;
+    grid-row-end: 2;
+  }
+
+  #w-node-_17d6e588-18ac-4e66-5bf5-268da30a568f-27df4077 {
+    -ms-grid-column-span: 3;
+    grid-column-end: 3;
+    -ms-grid-row: 2;
+    grid-row-start: 2;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -4762,6 +4880,22 @@
   }
 
   #w-node-_17d6e588-18ac-4e66-5bf5-268da30a568f-09ab109a {
+    -ms-grid-row: 2;
+    grid-row-start: 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: 2;
+  }
+
+  #w-node-_01931dfa-73e3-c5b2-4e55-199fa809f580-27df4077 {
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: 2;
+    -ms-grid-row-span: 2;
+    grid-row-end: 2;
+  }
+
+  #w-node-_17d6e588-18ac-4e66-5bf5-268da30a568f-27df4077 {
     -ms-grid-row: 2;
     grid-row-start: 2;
     -ms-grid-column-span: 2;

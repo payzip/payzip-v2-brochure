@@ -3,6 +3,7 @@ Disallow: /football$
 Disallow: /rugby$
 Disallow: /cricket$
 Disallow: /athletics$
+Disallow: /hockey-wales$
 Allow: /
 
 Sitemap: https://www.payzip.co.uk/sitemap.xml
