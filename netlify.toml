@@ -8,5 +8,6 @@ package = "@netlify/plugin-sitemap"
     './public/cricket.html',
     './public/football.html',
     './public/rugby.html',
-    './public/hockey-wales.html'
+    './public/hockey-wales.html',
+    './public/pricing.html'
     ]
