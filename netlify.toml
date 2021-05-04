@@ -3,10 +3,3 @@ package = "@netlify/plugin-sitemap"
 
   [plugins.inputs]
   buildDir = "public"
-  exclude = [
-    './athletics.html',
-    './cricket.html',
-    './football.html',
-    './rugby.html',
-    './hockey-wales.html'
-    ]
