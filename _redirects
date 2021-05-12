@@ -1,5 +1,5 @@
-https://payzip.co.uk/* https://www.payzip.co.uk/:splat 301!
 http://payzip.co.uk/ https://www.payzip.co.uk/
+https://payzip.co.uk/* https://www.payzip.co.uk/:splat 301!
 https://www.payzip.co.uk// https://www.payzip.co.uk/
 wwww.payzip.co.uk/ https://www.payzip.co.uk/
 app.payzip.co.uk/ https://www.payzip.co.uk/

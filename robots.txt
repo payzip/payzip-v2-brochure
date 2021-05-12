@@ -5,6 +5,8 @@ Disallow: /cricket$
 Disallow: /athletics$
 Disallow: /hockey-wales$
 Disallow: /old-home$
+Disallow: /404$
+Disallow: /401$
 Allow: /
 
 Sitemap: https://www.payzip.co.uk/sitemap.xml
