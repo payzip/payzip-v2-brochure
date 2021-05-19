@@ -2268,6 +2268,31 @@
   text-align: center;
 }
 
+.webinardiv {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 50px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #84c5f4;
+  color: #fff;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+.inlinetextlink {
+  margin-right: 0.3rem;
+  margin-left: 0.3rem;
+}
+
 @media screen and (min-width: 1280px) {
   .heading.pageheader.landingpage.cricket {
     margin-top: 80px;
