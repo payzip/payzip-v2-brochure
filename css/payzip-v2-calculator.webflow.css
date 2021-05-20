@@ -88,7 +88,7 @@
   display: block;
   width: 100%;
   min-width: 100%;
-  padding: 60px 20px;
+  padding: 0px 20px 60px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -990,6 +990,7 @@
 }
 
 .div-block-9.herosection.releasenotes {
+  padding-top: 40px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1418,6 +1419,7 @@
 .releasecontainer.releasewhite {
   margin-top: 20px;
   margin-bottom: 20px;
+  padding-top: 40px;
   background-color: #fff;
 }
 
@@ -1456,7 +1458,7 @@
 }
 
 .releasesectionheading {
-  margin-top: 60px;
+  margin-top: 40px;
   margin-bottom: 0px;
   color: #102a43;
   font-size: 1.5rem;
@@ -1479,11 +1481,14 @@
 .releasenoteitemcategory {
   max-width: 2.5rem;
   margin-left: 0px;
+  -webkit-align-self: flex-start;
+  -ms-flex-item-align: start;
+  align-self: flex-start;
 }
 
 .releasenoteitemdescription {
   display: inline-block;
-  margin-left: 30px;
+  margin-left: 20px;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -1576,6 +1581,7 @@
 
 .releaselegend {
   font-size: 1rem;
+  text-align: left;
 }
 
 .navbargroupdiv {
@@ -2854,9 +2860,7 @@
   .releasecontainer.releasewhite {
     margin-top: 0px;
     margin-bottom: 0px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
+    padding: 20px;
   }
 
   .releasecontainer.releasewhite.terms {
@@ -2868,13 +2872,14 @@
 
   .releasecontainer.releaseblue {
     margin-top: 40px;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
     padding-right: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
   }
 
   .releaseheading {
+    margin-top: 0px;
     margin-bottom: 0px;
     font-weight: 400;
   }
@@ -3525,7 +3530,7 @@
   }
 
   .bg-alternate {
-    padding: 40px 10px;
+    padding: 0px 10px 40px;
   }
 
   .bg-alternate.navsection {
@@ -4006,12 +4011,17 @@
     display: block;
     max-width: 3rem;
     margin-bottom: 10px;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    text-align: left;
   }
 
   .releasenoteitemdescription {
     display: block;
     margin-top: 10px;
-    margin-left: 20px;
+    margin-left: 0px;
   }
 
   .termsconditionslink {
