@@ -72,6 +72,11 @@
   background-color: #f0f4f8;
 }
 
+.bg-white.newhome-faqs.affiliates.terv {
+  background-color: #e1d99e;
+  background-clip: border-box;
+}
+
 .bg-white.cricket {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -474,6 +479,11 @@
   color: #84c5f4;
 }
 
+.heading.pageheader.landingpage.cricket.althero.newhome.affiliates.terv {
+  color: #f7d31a;
+  font-size: 4.5vw;
+}
+
 .heading.pageheader.landingpage.cricket.althero.athletics {
   margin-top: 0%;
   padding-right: 5%;
@@ -512,6 +522,10 @@
 
 .heading.featureheader.neutral1.featuresgrid.faqs {
   margin-top: 0px;
+}
+
+.heading.featureheader.neutral1.featuresgrid.faqs.affiliates.terv {
+  color: #416237;
 }
 
 .heading.featureheader.neutral1.featuresgrid.pricing {
@@ -562,6 +576,10 @@
 
 .text-block.primary1.herobody.newhome.affiliates.hockeywales {
   color: #dceefb;
+}
+
+.text-block.primary1.herobody.newhome.affiliates.terv {
+  color: #fff;
 }
 
 .text-block.neutral1 {
@@ -821,6 +839,13 @@
 .button-2.startnow.football.referrerurl.hockeywales {
   width: auto;
   min-width: auto;
+}
+
+.button-2.startnow.football.referrerurl.terv {
+  width: auto;
+  min-width: auto;
+  background-color: #f7d31a;
+  color: #44653d;
 }
 
 .div-block-5 {
@@ -2005,10 +2030,18 @@
   font-weight: 600;
 }
 
+.questiontext.terv {
+  color: #416237;
+}
+
 .answertext {
   color: #003e6b;
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.answertext.terv {
+  color: #416237;
 }
 
 .text-span-5 {
@@ -2107,6 +2140,11 @@
   background-image: none;
 }
 
+.herogrid.newhome.affiliates.terv {
+  background-color: #44653d;
+  background-image: none;
+}
+
 .image-9 {
   width: 100%;
   -o-object-fit: fill;
@@ -2182,6 +2220,11 @@
 .affiliatesignupbutton.hockeywales {
   background-color: #84c5f4;
   color: #003e6b;
+}
+
+.affiliatesignupbutton.terv {
+  background-color: #f7d31a;
+  color: #44653d;
 }
 
 .affiliatepromotionmethoddiv {
@@ -2294,6 +2337,11 @@
   text-align: center;
 }
 
+.webinardiv.terv {
+  background-color: #e1d99e;
+  color: #416237;
+}
+
 .inlinetextlink {
   margin-right: 0.3rem;
   margin-left: 0.3rem;
@@ -2332,6 +2380,11 @@
   .heading.pageheader.landingpage.cricket.althero.newhome {
     font-size: 3.6vw;
     line-height: 4.1vw;
+  }
+
+  .heading.pageheader.landingpage.cricket.althero.newhome.affiliates.terv {
+    font-size: 3.5vw;
+    line-height: 4vw;
   }
 
   .text-block-5.pullquote {
@@ -2373,6 +2426,11 @@
   .heading.pageheader.landingpage.cricket.althero.newhome {
     font-size: 2.6vw;
     line-height: 3.1vw;
+  }
+
+  .heading.pageheader.landingpage.cricket.althero.newhome.affiliates.terv {
+    font-size: 3vw;
+    line-height: 3.5vw;
   }
 
   .text-block-5.pullquote {
@@ -4508,6 +4566,28 @@
   grid-row-start: 1;
 }
 
+#w-node-_01931dfa-73e3-c5b2-4e55-199fa809f580-dc8f1041 {
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 2;
+  grid-row-end: 3;
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-column-span: 1;
+  grid-column-end: 3;
+}
+
+#w-node-_17d6e588-18ac-4e66-5bf5-268da30a568f-dc8f1041 {
+  -ms-grid-column-span: 1;
+  grid-column-end: 2;
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-row-span: 2;
+  grid-row-end: 3;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+}
+
 @media screen and (max-width: 991px) {
   #w-node-ae2bfae7-da6c-41c2-caeb-ce5b75c81db8-75c81da8 {
     -ms-grid-column: 2;
@@ -4855,6 +4935,22 @@
     -ms-grid-row-align: auto;
     align-self: auto;
   }
+
+  #w-node-_01931dfa-73e3-c5b2-4e55-199fa809f580-dc8f1041 {
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-row-span: 2;
+    grid-row-end: 2;
+  }
+
+  #w-node-_17d6e588-18ac-4e66-5bf5-268da30a568f-dc8f1041 {
+    -ms-grid-column-span: 3;
+    grid-column-end: 3;
+    -ms-grid-row: 2;
+    grid-row-start: 2;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -4931,6 +5027,22 @@
   }
 
   #w-node-_17d6e588-18ac-4e66-5bf5-268da30a568f-27df4077 {
+    -ms-grid-row: 2;
+    grid-row-start: 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: 2;
+  }
+
+  #w-node-_01931dfa-73e3-c5b2-4e55-199fa809f580-dc8f1041 {
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: 2;
+    -ms-grid-row-span: 2;
+    grid-row-end: 2;
+  }
+
+  #w-node-_17d6e588-18ac-4e66-5bf5-268da30a568f-dc8f1041 {
     -ms-grid-row: 2;
     grid-row-start: 2;
     -ms-grid-column-span: 2;
