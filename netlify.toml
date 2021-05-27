@@ -10,5 +10,6 @@ package = "@netlify/plugin-sitemap"
     './football.html',
     './rugby.html',
     './hockey-wales.html',
-    './old-home.html'
+    './old-home.html',
+    './terv.html'
     ]
