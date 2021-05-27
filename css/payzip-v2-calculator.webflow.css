@@ -3568,6 +3568,10 @@
     font-size: 1rem;
     line-height: 1.5rem;
   }
+
+  .divadbanner {
+    font-size: 0.875rem;
+  }
 }
 
 @media screen and (max-width: 479px) {
