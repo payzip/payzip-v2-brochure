@@ -1,11 +1,5 @@
 User-Agent: *
-Disallow: /football$
-Disallow: /rugby$
-Disallow: /cricket$
-Disallow: /athletics$
-Disallow: /hockey-wales$
 Disallow: /old-home$
-Disallow: /terv$
 Disallow: /404$
 Disallow: /401$
 Allow: /
