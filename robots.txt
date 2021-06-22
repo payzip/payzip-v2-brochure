@@ -1,5 +1,4 @@
 User-Agent: *
-Disallow: /old-home$
 Disallow: /404$
 Disallow: /401$
 Allow: /
