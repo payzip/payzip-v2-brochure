@@ -1,6 +1,8 @@
 [[plugins]]
-package = "@netlify/plugin-sitemap"
+package = "@netlify/plugin-local-install-core"
 
+[[plugins]]
+package = "@netlify/plugin-sitemap"
   [plugins.inputs]
   buildDir = ""
   exclude = [
@@ -15,3 +17,9 @@ package = "@netlify/plugin-sitemap"
     './404.html',
     './401.html'
     ]
+
+[[plugins]]
+package = "/plugins/image-to-webp"
+  [plugins.inputs]
+  fileLevel = "/opt/build/repo"
+  imagePath = "/opt/build/repo/images/webp"

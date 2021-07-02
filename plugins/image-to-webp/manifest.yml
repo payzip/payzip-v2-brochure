@@ -1,0 +1,8 @@
+# manifest.yml
+
+name: image-to-webp
+inputs:
+  - name: fileLevel
+    description: Path for html files to be transformed
+  - name: imagePath
+    description: Path for webp images to be saved
