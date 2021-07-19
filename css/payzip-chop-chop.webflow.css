@@ -29,7 +29,7 @@
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  border: 1px solid #003e6b;
+  border: 1px none #003e6b;
   background-color: #fff;
   text-align: left;
 }
@@ -714,10 +714,34 @@
 }
 
 .button.homehero {
-  width: auto;
-  margin-right: 20px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 320px;
+  height: 50px;
+  min-height: 50px;
+  margin-right: 0px;
+  padding-top: 6px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  border-radius: 9px;
   background-color: #84c5f4;
   color: #003e6b;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  text-align: center;
   background-clip: border-box;
 }
 
@@ -2290,6 +2314,10 @@
   line-height: 1.7rem;
 }
 
+.newhomecollectmoneydiv {
+  margin-top: 30px;
+}
+
 @media screen and (min-width: 1280px) {
   .heading.pageheader.landingpage.cricket {
     margin-top: 80px;
@@ -2651,8 +2679,22 @@
   .button.homehero {
     min-height: 50px;
     min-width: 40vw;
-    padding-top: 1.8vw;
-    font-size: 2.6vw;
+    padding-top: 6px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 1.25rem;
+    line-height: 1.25rem;
   }
 
   .button-2.startnow {
@@ -3219,7 +3261,7 @@
   }
 
   .nav-link-2 {
-    display: inline-block;
+    display: none;
     padding-right: 0px;
     padding-left: 0px;
     font-size: 1rem;
@@ -3240,7 +3282,10 @@
   }
 
   .button.homehero {
-    display: inline-block;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
   }
 
   .image {
@@ -3293,7 +3338,7 @@
     right: 0%;
     bottom: auto;
     display: block;
-    width: 30%;
+    width: auto;
     padding-right: 0px;
     float: right;
     -webkit-box-orient: vertical;
@@ -3310,6 +3355,7 @@
     -ms-grid-row-align: auto;
     align-self: auto;
     background-color: #dceefb;
+    text-align: right;
   }
 
   .image-3 {
@@ -3365,6 +3411,10 @@
     display: none;
     width: 100%;
     text-align: right;
+  }
+
+  .menu-button.w--open {
+    background-color: #003e6b;
   }
 
   .image-4 {
@@ -3452,6 +3502,7 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    width: auto;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -3677,6 +3728,10 @@
     margin-top: 20px;
   }
 
+  .image-12 {
+    width: 80px;
+  }
+
   .link.allfeatures {
     -webkit-box-ordinal-group: 2;
     -webkit-order: 1;
@@ -3844,8 +3899,12 @@
   }
 
   .heading.pageheader.landingpage.cricket.althero.newhome {
-    font-size: 4.6vw;
-    line-height: 6vw;
+    font-size: 6.6vw;
+    line-height: 7.2vw;
+  }
+
+  .heading.pageheader.landingpage.cricket.althero.newhome.affiliates {
+    margin-top: 0px;
   }
 
   .heading.pageheader.landingpage.cricket.althero.newhome.affiliates.hockeywales {
@@ -3867,15 +3926,43 @@
     margin-bottom: 20px;
   }
 
+  .heading.featureheader.neutral1.homeintro.sectionheader {
+    font-size: 6.5vw;
+    line-height: 8.5vw;
+  }
+
+  .heading.featureheader.neutral1.homeintro.subheader {
+    font-size: 1rem;
+    line-height: 1.312rem;
+    font-weight: 400;
+  }
+
+  .heading.featureheader.neutral1.whypayzip {
+    margin-bottom: 20px;
+    font-size: 6.5vw;
+    line-height: 8.5vw;
+  }
+
   .heading.featureheader.neutral1.twoways {
-    font-size: 5vw;
-    line-height: 6vw;
+    font-size: 6.5vw;
+    line-height: 8.5vw;
     text-align: center;
   }
 
   .heading.featureheader.neutral1.twoways.introheader {
     font-size: 6.5vw;
     line-height: 8.5vw;
+  }
+
+  .heading.featureheader.neutral1.invoicemethod {
+    font-size: 6.5vw;
+    line-height: 8.5vw;
+  }
+
+  .heading.featureheader.neutral1.pingmethod {
+    font-size: 6.5vw;
+    line-height: 8.5vw;
+    text-align: center;
   }
 
   .text-block.primary1 {
@@ -3910,6 +3997,10 @@
     margin-bottom: 20px;
   }
 
+  .nav-link-2 {
+    display: none;
+  }
+
   .nav-link-5.primary1 {
     display: block;
   }
@@ -3930,8 +4021,8 @@
 
   .button.homehero {
     width: 100%;
-    padding-top: 4vw;
-    font-size: 5.5vw;
+    padding-top: 8px;
+    font-size: 1.1rem;
     text-align: center;
   }
 
@@ -4106,10 +4197,9 @@
 
   .div-block-12.paylogos {
     margin-top: 0px;
-    -webkit-box-pack: start;
-    -webkit-justify-content: flex-start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
     text-align: center;
   }
 
@@ -4123,6 +4213,10 @@
 
   .menu-button:active {
     background-color: #bcccdc;
+  }
+
+  .menu-button.w--open {
+    background-color: transparent;
   }
 
   .image-4 {
@@ -4432,10 +4526,9 @@
     padding-bottom: 20px;
     padding-left: 20px;
     grid-auto-rows: 1.5fr;
-    -ms-grid-columns: minmax(250px, 1fr);
-    grid-template-columns: minmax(250px, 1fr);
-    -ms-grid-rows: minmax(200px, 0.25fr);
-    grid-template-rows: minmax(200px, 0.25fr);
+    grid-row-gap: 10vw;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(200px, 0.75fr));
   }
 
   .herogrid.newhome.affiliates {
@@ -4445,8 +4538,8 @@
     grid-auto-columns: 1fr;
     -ms-grid-columns: minmax(250px, 1fr);
     grid-template-columns: minmax(250px, 1fr);
-    -ms-grid-rows: 0.75fr minmax(auto, 1fr);
-    grid-template-rows: 0.75fr minmax(auto, 1fr);
+    -ms-grid-rows: 0.5fr minmax(auto, 1fr);
+    grid-template-rows: 0.5fr minmax(auto, 1fr);
   }
 
   .herogrid.newhome.affiliates.hockeywales {
@@ -4472,13 +4565,25 @@
     grid-template-columns: 1fr 1fr;
   }
 
+  .div-block-34 {
+    margin-top: 0px;
+  }
+
   .affiliatestrategieslist {
     text-align: left;
+  }
+
+  .affiliatesignupbutton {
+    text-align: center;
   }
 
   .affiliatesignupbutton.hockeywales.w--current {
     width: 100%;
     text-align: center;
+  }
+
+  .affiliatesignupbutton.pagebottom {
+    width: 100%;
   }
 
   .affiliatepromotionmethodtext {
@@ -4491,6 +4596,10 @@
     grid-template-columns: 1fr;
     -ms-grid-rows: auto;
     grid-template-rows: auto;
+  }
+
+  .image-12 {
+    height: auto;
   }
 }
 
