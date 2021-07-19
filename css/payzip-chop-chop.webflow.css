@@ -484,6 +484,18 @@
   margin-top: 0px;
 }
 
+.heading.featureheader.neutral1.invoicemethod {
+  margin-bottom: 30px;
+  color: #003e6b;
+}
+
+.heading.featureheader.neutral1.pingmethod {
+  margin-bottom: 30px;
+  background-color: transparent;
+  color: #003e6b;
+  background-clip: border-box;
+}
+
 .text-block {
   width: 96%;
   margin-bottom: 20px;
@@ -545,6 +557,14 @@
 
 .text-block.neutral1.affiliates {
   margin-bottom: 0px;
+}
+
+.text-block.neutral1.primary1 {
+  color: #003e6b;
+}
+
+.text-block.neutral1.parimary1 {
+  color: #003e6b;
 }
 
 .text-block.pricingpertransaction {
@@ -2277,7 +2297,7 @@
   display: -ms-flexbox;
   display: flex;
   width: 48%;
-  padding: 20px;
+  padding: 60px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -2287,20 +2307,22 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  border: 1px solid #003e6b;
-  border-radius: 5px;
+  border: 1px none #003e6b;
+  border-radius: 20px;
+  background-color: #dceefb;
 }
 
 .pingmethoddiv {
   width: 48%;
-  padding: 20px;
-  border: 1px solid #003e6b;
-  border-radius: 5px;
+  padding: 60px;
+  border: 1px none #003e6b;
+  border-radius: 20px;
+  background-color: #dceefb;
 }
 
 .image-12 {
-  width: 160px;
-  height: 160px;
+  width: 120px;
+  height: 120px;
 }
 
 .link {
@@ -3121,6 +3143,16 @@
 
   .navlinkholderdiv {
     width: 100%;
+  }
+
+  .invoicemethoddiv {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .pingmethoddiv {
+    padding-right: 40px;
+    padding-left: 40px;
   }
 
   .newhomecollectmoneydiv {
@@ -4050,6 +4082,10 @@
     margin-top: 0px;
   }
 
+  .button-2.startnow.football.referrerurl {
+    font-size: 1rem;
+  }
+
   .button-2.startnow.football.referrerurl.hockeywales {
     width: 100%;
   }
@@ -4596,6 +4632,16 @@
     grid-template-columns: 1fr;
     -ms-grid-rows: auto;
     grid-template-rows: auto;
+  }
+
+  .invoicemethoddiv {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .pingmethoddiv {
+    padding-right: 20px;
+    padding-left: 20px;
   }
 
   .image-12 {
