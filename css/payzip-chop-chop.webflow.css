@@ -2086,7 +2086,7 @@
   max-height: 100%;
   margin-top: auto;
   margin-bottom: auto;
-  border: 1px solid #003e6b;
+  border: 0px none #003e6b;
   border-radius: 5px;
 }
 
@@ -2475,6 +2475,8 @@
 
   .image-9.newhome {
     height: auto;
+    border-style: none;
+    border-width: 0px;
   }
 
   .heroimagegrid.football {
