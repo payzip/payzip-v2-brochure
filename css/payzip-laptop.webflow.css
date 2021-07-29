@@ -563,15 +563,15 @@
   color: #003e6b;
 }
 
-.text-block.neutral1.parimary1 {
-  color: #003e6b;
-}
-
 .text-block.pricingpertransaction {
   margin-bottom: 5px;
   font-size: 0.875rem;
   line-height: 1rem;
   text-align: center;
+}
+
+.text-block.pricingpertransaction.volumediscounts {
+  margin-top: 20px;
 }
 
 .div-section-header {
@@ -624,6 +624,8 @@
 .nav-link-2 {
   margin-right: 0px;
   margin-left: 0px;
+  padding-right: 15px;
+  padding-left: 15px;
   font-family: Inter, sans-serif;
   color: #dceefb;
   font-size: 1.125rem;
@@ -738,11 +740,12 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 320px;
+  width: 205px;
   height: 50px;
   min-height: 50px;
   margin-right: 0px;
-  padding-top: 6px;
+  margin-bottom: 10px;
+  padding-top: 8px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -815,6 +818,10 @@
   margin-bottom: 0px;
 }
 
+.button-2.startnow.bottombutton.referrerurl {
+  width: 440px;
+}
+
 .button-2.startnow.tipsbutton {
   width: 400px;
 }
@@ -833,6 +840,19 @@
   min-width: auto;
   background-color: #f7d31a;
   color: #44653d;
+}
+
+.button-2.startnow.football.referrerurl.two-methods {
+  width: 430px;
+}
+
+.button-2.startnow.football.referrerurl.featurescta {
+  width: 430px;
+  height: auto;
+  min-height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  line-height: 1.6rem;
 }
 
 .div-block-6 {
@@ -1765,6 +1785,12 @@
   margin-top: 10px;
 }
 
+.text-block-8.homehero {
+  margin-top: 0px;
+  margin-bottom: 5px;
+  color: #f0f4f8;
+}
+
 .div-block-26 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2439,14 +2465,13 @@
   }
 
   .text-block-5.pullquote {
-    font-size: 1.5vw;
-    line-height: 2vw;
+    font-size: 1.3vw;
+    line-height: 1.8vw;
   }
 
   .text-block-5.pullquote.landingpage {
-    margin: 0px;
-    font-size: 1.5vw;
-    line-height: 2vw;
+    font-size: 1.4vw;
+    line-height: 1.9vw;
   }
 
   .text-block-5.football {
@@ -2454,12 +2479,21 @@
   }
 
   .div-block-24 {
-    margin: 0px;
+    margin-top: 0px;
   }
 
   .testimonialdiv {
-    margin-bottom: 40px;
-    padding-top: 60px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .testimonialdiv.patrick {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .herogrid.newhome {
@@ -2701,8 +2735,9 @@
   }
 
   .button.homehero {
+    width: 200px;
     min-height: 50px;
-    min-width: 40vw;
+    min-width: 30vw;
     padding-top: 6px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -3320,6 +3355,7 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    min-width: 37vw;
   }
 
   .image {
@@ -4016,8 +4052,8 @@
 
   .text-block.primary1.herobody.newhome {
     margin-top: 20px;
-    font-size: 4.3vw;
-    line-height: 6.5vw;
+    font-size: 1rem;
+    line-height: 1.3rem;
   }
 
   .text-block.neutral1 {
@@ -4029,6 +4065,10 @@
   .text-block.neutral1.hockeywales {
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+
+  .text-block.pricingpertransaction.volumediscounts {
+    margin-top: 20px;
   }
 
   .nav-link-2 {
@@ -4078,6 +4118,15 @@
 
   .button-2.startnow.bottombutton {
     margin-bottom: 0px;
+  }
+
+  .button-2.startnow.bottombutton.referrerurl {
+    width: 100%;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 1.2rem;
+    line-height: 1.7rem;
   }
 
   .button-2.startnow.football {
@@ -4462,6 +4511,12 @@
     margin-bottom: 0px;
   }
 
+  .text-block-8.homehero {
+    margin-bottom: 10px;
+    font-size: 0.875rem;
+    line-height: 1.2rem;
+  }
+
   .div-block-26 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
@@ -4790,58 +4845,6 @@
   grid-row-end: 3;
   -ms-grid-row: 1;
   grid-row-start: 1;
-}
-
-#w-node-_11925c10-50fd-b599-9fc6-7faebe8e3f82-8b588f8a {
-  -ms-grid-column: 1;
-  grid-column-start: 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: 2;
-  -ms-grid-row: 1;
-  grid-row-start: 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
-  -ms-grid-column-align: auto;
-  justify-self: auto;
-  -ms-grid-row-align: start;
-  align-self: start;
-}
-
-#w-node-_51293c68-c127-4165-c6e6-239aaef05a96-8b588f8a {
-  -ms-grid-column: 2;
-  grid-column-start: 2;
-  -ms-grid-column-span: 1;
-  grid-column-end: 3;
-  -ms-grid-row: 1;
-  grid-row-start: 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: 2;
-}
-
-#w-node-e3c1b0d3-78dd-cc24-f6a2-cd8db4a8961d-8b588f8a {
-  -ms-grid-column: 1;
-  grid-column-start: 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: 2;
-  -ms-grid-row: 2;
-  grid-row-start: 2;
-  -ms-grid-row-span: 1;
-  grid-row-end: 3;
-  -ms-grid-column-align: auto;
-  justify-self: auto;
-  -ms-grid-row-align: start;
-  align-self: start;
-}
-
-#w-node-_1a21b12e-0a15-407d-84aa-59fbd07297eb-8b588f8a {
-  -ms-grid-column: 2;
-  grid-column-start: 2;
-  -ms-grid-column-span: 1;
-  grid-column-end: 3;
-  -ms-grid-row: 2;
-  grid-row-start: 2;
-  -ms-grid-row-span: 1;
-  grid-row-end: 3;
 }
 
 #w-node-_8cbc940e-6a0d-6da5-ed13-b4de5028cacb-c1588f8b {
@@ -5247,28 +5250,6 @@
     grid-row-start: 2;
     -ms-grid-column-span: 2;
     grid-column-end: 2;
-  }
-
-  #w-node-_51293c68-c127-4165-c6e6-239aaef05a96-8b588f8a {
-    -ms-grid-column: 1;
-    grid-column-start: 1;
-    -ms-grid-column-span: 1;
-    grid-column-end: 2;
-    -ms-grid-row: 3;
-    grid-row-start: 3;
-    -ms-grid-row-span: 1;
-    grid-row-end: 4;
-  }
-
-  #w-node-_1a21b12e-0a15-407d-84aa-59fbd07297eb-8b588f8a {
-    -ms-grid-column: 1;
-    grid-column-start: 1;
-    -ms-grid-column-span: 1;
-    grid-column-end: 2;
-    -ms-grid-row: 4;
-    grid-row-start: 4;
-    -ms-grid-row-span: 1;
-    grid-row-end: 5;
   }
 
   #w-node-_01931dfa-73e3-c5b2-4e55-199fa809f580-1d588f8e {
