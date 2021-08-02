@@ -16,7 +16,8 @@ package = "@netlify/plugin-sitemap"
     './release-notes.html',
     './404.html',
     './401.html',
-    './plugins/**'
+    './plugins/**',
+    './422-lazarou.html'
     ]
 
 [[plugins]]
