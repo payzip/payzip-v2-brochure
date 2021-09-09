@@ -19,7 +19,7 @@
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding: 60px 20px 40px;
+  padding: 60px 20px;
   float: none;
   clear: none;
   -webkit-justify-content: space-around;
@@ -39,7 +39,12 @@
 }
 
 .bg-white.secondtestimonial.newhome {
+  padding-bottom: 60px;
   background-color: #d9e2ec;
+}
+
+.bg-white.secondtestimonial.newhome.pricing {
+  padding-top: 40px;
 }
 
 .bg-white.newhome-features {
@@ -66,6 +71,7 @@
 .bg-white.newhome-faqs.affiliates.terv {
   background-color: #e1d99e;
   background-clip: border-box;
+  -webkit-text-fill-color: inherit;
 }
 
 .bg-white.cricket {
@@ -84,7 +90,7 @@
   display: block;
   width: 100%;
   min-width: 100%;
-  padding: 0px 20px 60px;
+  padding: 60px 20px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -96,6 +102,7 @@
   justify-content: center;
   background-color: transparent;
   background-clip: border-box;
+  -webkit-text-fill-color: inherit;
 }
 
 .bg-alternate.navsection {
@@ -121,10 +128,12 @@
 .bg-alternate.leadmagnet {
   padding-top: 60px;
   padding-bottom: 60px;
+  background-color: #e0fcff;
 }
 
 .bg-alternate.bottomtestimonial {
   margin-bottom: 0px;
+  padding-top: 60px;
 }
 
 .bg-alternate.trustedbysection {
@@ -132,6 +141,8 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  padding-top: 60px;
+  padding-bottom: 60px;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -154,6 +165,19 @@
 
 .bg-alternate.affiliate {
   background-color: #f0f4f8;
+}
+
+.bg-alternate.tervtestimonial {
+  background-color: #dceefb;
+}
+
+.bg-alternate.lazaroutestimonial {
+  background-color: #dceefb;
+}
+
+.bg-alternate.davesnooktestimonial {
+  padding-top: 60px;
+  background-color: #dceefb;
 }
 
 .bg-footer {
@@ -179,6 +203,7 @@
   background-position: 0px 0px;
   background-size: 410px;
   background-clip: border-box;
+  -webkit-text-fill-color: inherit;
 }
 
 .footer-flex-container {
@@ -252,23 +277,6 @@
   background-color: transparent;
 }
 
-.div-block.releasenoteslegenddiv {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  max-width: 100%;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 .navbar {
   position: -webkit-sticky;
   position: sticky;
@@ -305,10 +313,6 @@
 
 .navbar.affiliates {
   background-color: #87eaf2;
-}
-
-.navbar.affiliates.hockeywales {
-  background-color: #003e6b;
 }
 
 .heading {
@@ -417,10 +421,7 @@
 .heading.pageheader.landingpage.cricket.althero.newhome.affiliates.terv {
   color: #f7d31a;
   font-size: 4.5vw;
-}
-
-.heading.pageheader.landingpage.cricket.althero.newhome.affiliates.lazarou {
-  color: #003e6b;
+  line-height: 5vw;
 }
 
 .heading.pageheader.landingpage.cricket.althero.athletics {
@@ -481,6 +482,7 @@
 }
 
 .heading.featureheader.neutral1.whypayzip {
+  margin-top: 0px;
   text-align: center;
 }
 
@@ -498,6 +500,7 @@
   background-color: transparent;
   color: #003e6b;
   background-clip: border-box;
+  -webkit-text-fill-color: inherit;
 }
 
 .text-block {
@@ -552,10 +555,6 @@
   color: #fff;
 }
 
-.text-block.primary1.herobody.newhome.affiliates.lazarou {
-  color: #fff;
-}
-
 .text-block.neutral1 {
   width: 100%;
   color: #102a43;
@@ -605,8 +604,8 @@
 .div-section-header.trustedbydiv {
   width: 100%;
   max-width: 1110px;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .body {
@@ -619,14 +618,8 @@
   font-family: Inter, sans-serif;
 }
 
-.body.releasenotes {
-  background-image: url('../images/Payzip-Wallpaper-Tile-80.svg');
-  background-position: 0px 0px;
-  background-size: 410px;
-}
-
 .body.affiliates {
-  background-color: #e0fcff;
+  background-color: #f0f4f8;
 }
 
 .nav-link-2 {
@@ -675,7 +668,7 @@
 }
 
 .text-block-2.secondarycolour.tertiaryheading.neutral1 {
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   font-size: 1.125rem;
 }
 
@@ -737,12 +730,6 @@
   font-weight: 500;
 }
 
-.button.affiliates {
-  background-color: #044e54;
-  color: #e0fcff;
-  text-align: center;
-}
-
 .button.homehero {
   display: -webkit-box;
   display: -webkit-flex;
@@ -774,6 +761,7 @@
   line-height: 1.5rem;
   text-align: center;
   background-clip: border-box;
+  -webkit-text-fill-color: inherit;
 }
 
 .image {
@@ -790,6 +778,7 @@
   color: #003e6b;
   font-weight: 500;
   background-clip: border-box;
+  -webkit-text-fill-color: inherit;
 }
 
 .button-2.startnow {
@@ -830,6 +819,10 @@
   width: 440px;
 }
 
+.button-2.startnow.bottombutton.referrerurl.pricingcta {
+  margin-bottom: 20px;
+}
+
 .button-2.startnow.tipsbutton {
   width: 400px;
 }
@@ -859,12 +852,13 @@
 }
 
 .button-2.startnow.football.referrerurl.featurescta {
-  width: 430px;
+  width: 35vw;
   height: auto;
   min-height: auto;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  line-height: 1.6rem;
+  margin-bottom: 20px;
+  padding: 10px 2vw;
+  font-size: 1.6vw;
+  line-height: 1.5rem;
 }
 
 .div-block-6 {
@@ -940,8 +934,8 @@
 }
 
 .div-block-7.rightbutton.homepage.firstcta.landingpage {
-  margin-top: 0px;
-  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-bottom: 0px;
 }
 
 .div-block-7.rightbutton.homepage.firstcta.pricingpage {
@@ -958,12 +952,7 @@
   max-width: 1000px;
   margin-right: auto;
   margin-left: auto;
-}
-
-.div-block-9.threeconvincers {
-  width: 100%;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  font-style: normal;
 }
 
 .div-block-9.youcan {
@@ -998,21 +987,6 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-}
-
-.div-block-9.herosection.releasenotes {
-  padding-top: 40px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  border-style: none;
-  border-width: 1px;
-  border-color: #000;
-  background-color: transparent;
-  opacity: 1;
-  background-clip: border-box;
 }
 
 .div-block-9.herosection.terms {
@@ -1199,48 +1173,6 @@
   max-width: 80px;
 }
 
-.grid-2 {
-  max-width: none;
-  margin-right: auto;
-  margin-left: auto;
-  -webkit-box-pack: stretch;
-  -webkit-justify-content: stretch;
-  -ms-flex-pack: stretch;
-  justify-content: stretch;
-  justify-items: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-align-content: stretch;
-  -ms-flex-line-pack: stretch;
-  align-content: stretch;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 auto;
-  -ms-flex: 0 auto;
-  flex: 0 auto;
-  grid-auto-flow: row;
-  grid-column-gap: 50px;
-  -ms-grid-rows: auto;
-  grid-template-rows: auto;
-  text-align: left;
-}
-
-.grid-2.releasenoteslegend {
-  width: auto;
-  height: auto;
-  justify-items: start;
-  -webkit-align-content: center;
-  -ms-flex-line-pack: center;
-  align-content: center;
-  grid-auto-columns: 1fr;
-  grid-row-gap: 30px;
-  -ms-grid-columns: 1fr;
-  grid-template-columns: 1fr;
-  -ms-grid-rows: auto;
-  grid-template-rows: auto;
-}
-
 .grid-3 {
   grid-column-gap: 30px;
   grid-row-gap: 30px;
@@ -1338,11 +1270,6 @@
   font-weight: 300;
 }
 
-.pricingdivlightborders {
-  width: 100%;
-  margin-top: 0px;
-}
-
 .utility-page-wrap {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1401,11 +1328,6 @@
   width: 25%;
 }
 
-.releasenoteslegendicon {
-  max-width: 4rem;
-  margin-right: 20px;
-}
-
 .releasecontainer {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1437,13 +1359,6 @@
   margin-top: 0px;
 }
 
-.releasecontainer.releaseblue {
-  width: 100%;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  background-color: #fff;
-}
-
 .releaseheading {
   margin-bottom: 0px;
   color: #102a43;
@@ -1463,14 +1378,6 @@
   font-weight: 300;
 }
 
-.releasesectionheading {
-  margin-top: 40px;
-  margin-bottom: 0px;
-  color: #102a43;
-  font-size: 1.5rem;
-  font-weight: 300;
-}
-
 .releaseitemdiv {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1482,14 +1389,6 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-}
-
-.releasenoteitemcategory {
-  max-width: 2.5rem;
-  margin-left: 0px;
-  -webkit-align-self: flex-start;
-  -ms-flex-item-align: start;
-  align-self: flex-start;
 }
 
 .releasenoteitemdescription {
@@ -1585,11 +1484,6 @@
   font-size: 1rem;
 }
 
-.releaselegend {
-  font-size: 1rem;
-  text-align: left;
-}
-
 .navbargroupdiv {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1617,18 +1511,33 @@
 }
 
 .text-block-5.pullquote {
-  margin-top: 60px;
+  margin-top: 0px;
   margin-bottom: 10px;
   margin-left: 40px;
   padding-right: 0px;
   padding-left: 0px;
-  font-size: 2.5vw;
-  line-height: 3.2vw;
-  font-weight: 500;
+  font-size: 2.2vw;
+  line-height: 2.7vw;
+  font-style: italic;
+  font-weight: 400;
 }
 
 .text-block-5.pullquote.landingpage {
-  font-size: 2.5vw;
+  font-size: 2.2vw;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.text-block-5.pullquote.landingpage.davesnook {
+  font-size: 2.2vw;
+  line-height: 2.7vw;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.text-block-5.pullquote.landingpage.anniep {
+  font-size: 1.9vw;
+  line-height: 2.5vw;
   font-weight: 400;
 }
 
@@ -1636,7 +1545,7 @@
   width: 100%;
   margin-bottom: 0px;
   margin-left: 40px;
-  font-style: italic;
+  font-style: normal;
 }
 
 .text-block-5.football {
@@ -1749,7 +1658,7 @@
 .div-block-24 {
   display: inline-block;
   width: 20%;
-  margin-top: 67px;
+  margin-top: 0px;
 }
 
 .div-block-25 {
@@ -1778,11 +1687,28 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-bottom: 60px;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+  margin-bottom: 0px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.testimonialdiv.davesnook {
+  padding-top: 0px;
+}
+
+.testimonialdiv.pricing.patricksteed {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.testimonialdiv.anniep {
+  padding-top: 0px;
 }
 
 .image-8 {
@@ -1801,6 +1727,12 @@
   margin-top: 0px;
   margin-bottom: 5px;
   color: #f0f4f8;
+}
+
+.text-block-8.pricingnorisk {
+  margin-top: 5px;
+  font-size: 1.3vw;
+  line-height: 1.5vw;
 }
 
 .div-block-26 {
@@ -2113,11 +2045,6 @@
   background-image: none;
 }
 
-.herogrid.newhome.affiliates.lazarou {
-  background-color: #fff;
-  background-image: none;
-}
-
 .image-9 {
   width: 100%;
   -o-object-fit: fill;
@@ -2381,13 +2308,25 @@
 
 .link.allfeatures {
   margin-top: 40px;
-  margin-bottom: 40px;
+  margin-bottom: 0px;
   font-size: 1.2rem;
   line-height: 1.7rem;
 }
 
 .newhomecollectmoneydiv {
   margin-top: 30px;
+}
+
+.bold-text-3 {
+  color: #2680c2;
+}
+
+.bold-text-4 {
+  color: #2680c2;
+}
+
+.anniepbold {
+  color: #102a43;
 }
 
 @media screen and (min-width: 1280px) {
@@ -2402,13 +2341,43 @@
     font-size: 2.3vw;
   }
 
+  .button-2.startnow.football.referrerurl.featurescta {
+    font-size: 1.6vw;
+    line-height: 1.7rem;
+  }
+
   .text-block-5.pullquote {
-    font-size: 2.2vw;
-    line-height: 2.8vw;
+    font-size: 1.9vw;
+    line-height: 2.4vw;
   }
 
   .text-block-5.pullquote.landingpage {
-    font-size: 2.2vw;
+    font-size: 1.9vw;
+    line-height: 2.4vw;
+  }
+
+  .text-block-5.pullquote.landingpage.davesnook {
+    font-size: 1.9vw;
+    line-height: 2.4vw;
+  }
+
+  .text-block-5.pullquote.landingpage.anniep {
+    font-size: 1.9vw;
+    line-height: 2.4vw;
+  }
+
+  .testimonialdiv {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .testimonialdiv.patrick {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .image-10 {
@@ -2434,6 +2403,12 @@
     line-height: 4vw;
   }
 
+  .button-2.startnow.football.referrerurl.featurescta {
+    width: 31vw;
+    font-size: 1.4vw;
+    line-height: 2vw;
+  }
+
   .text-block-5.pullquote {
     font-size: 1.7vw;
     line-height: 2.2vw;
@@ -2444,6 +2419,21 @@
     line-height: 2.2vw;
   }
 
+  .text-block-5.pullquote.landingpage.davesnook {
+    font-size: 1.7vw;
+    line-height: 2.2vw;
+  }
+
+  .text-block-5.pullquote.landingpage.anniep {
+    font-size: 1.7vw;
+    line-height: 2.2vw;
+  }
+
+  .text-block-8.pricingnorisk {
+    font-size: 1vw;
+    line-height: 1.3vw;
+  }
+
   .herogrid.newhome {
     padding-right: 15%;
     padding-left: 15%;
@@ -2451,6 +2441,16 @@
 }
 
 @media screen and (min-width: 1920px) {
+  .bg-white.secondtestimonial.newhome {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .bg-alternate.davesnooktestimonial {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
   .heading.pageheader.landingpage {
     font-size: 6vw;
     line-height: 6.5vw;
@@ -2488,14 +2488,32 @@
     margin-bottom: 10px;
   }
 
+  .button-2.startnow.football.referrerurl.featurescta {
+    width: 23vw;
+    font-size: 1vw;
+    line-height: 1.5vw;
+  }
+
   .text-block-5.pullquote {
+    margin-top: 0px;
     font-size: 1.3vw;
     line-height: 1.8vw;
   }
 
   .text-block-5.pullquote.landingpage {
-    font-size: 1.4vw;
-    line-height: 1.9vw;
+    margin-top: 0px;
+    font-size: 1vw;
+    line-height: 1.5vw;
+  }
+
+  .text-block-5.pullquote.landingpage.davesnook {
+    font-size: 1vw;
+    line-height: 1.5vw;
+  }
+
+  .text-block-5.pullquote.landingpage.anniep {
+    font-size: 1vw;
+    line-height: 1.5vw;
   }
 
   .text-block-5.football {
@@ -2507,6 +2525,7 @@
   }
 
   .testimonialdiv {
+    margin-top: 0px;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -2514,10 +2533,28 @@
   }
 
   .testimonialdiv.patrick {
+    margin-top: 0px;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+  }
+
+  .testimonialdiv.davesnook {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+  }
+
+  .testimonialdiv.anniep {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+  }
+
+  .text-block-8.pricingnorisk {
+    font-size: 0.8vw;
+    line-height: 1.1vw;
   }
 
   .herogrid.newhome {
@@ -2570,6 +2607,10 @@
     padding-left: 20px;
   }
 
+  .bg-white.secondtestimonial.newhome.pricing {
+    padding-top: 60px;
+  }
+
   .bg-white.newhome-faqs.affiliates {
     padding-right: 0px;
     padding-left: 0px;
@@ -2599,7 +2640,7 @@
   }
 
   .bg-alternate.newhomebenefits {
-    padding-top: 40px;
+    padding-top: 60px;
   }
 
   .bg-alternate.affiliate {
@@ -2627,23 +2668,28 @@
 
   .footer-heading {
     margin-bottom: 10px;
+    font-size: 1.8vw;
   }
 
-  .div-block.releasenoteslegenddiv {
-    text-align: left;
+  .footer-link {
+    font-size: 1.7vw;
+    line-height: 2.5vw;
   }
 
   .navbar {
     width: 100%;
+    height: 60px;
     margin-top: 0px;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+    padding-left: 0px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+    text-align: left;
   }
 
   .heading.pageheader {
@@ -2744,18 +2790,35 @@
   }
 
   .nav-link-2 {
+    display: none;
     margin-right: 5px;
-    padding-right: 5px;
-    padding-left: 5px;
+    padding-right: 4px;
+    padding-left: 4px;
     -webkit-align-self: center;
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
     align-self: center;
     font-size: 1rem;
+    line-height: 2.4vw;
   }
 
   .nav-link-5.primary1 {
+    display: inline-block;
+  }
+
+  .text-block-2.secondarycolour.tertiaryheading.neutral1.organisationname {
+    margin-top: 10px;
+  }
+
+  .div-block-3.logodiv {
+    margin-top: 10px;
+  }
+
+  .button.referrerurl {
     display: none;
+    min-width: 75px;
+    font-size: 1.9vw;
+    line-height: 2.4vw;
   }
 
   .button.homehero {
@@ -2780,6 +2843,11 @@
     line-height: 1.25rem;
   }
 
+  .image {
+    width: auto;
+    text-align: left;
+  }
+
   .button-2.startnow {
     position: static;
     width: 270px;
@@ -2796,6 +2864,10 @@
     border-radius: 13px;
   }
 
+  .button-2.startnow.bottombutton.referrerurl.pricingcta {
+    margin-bottom: 20px;
+  }
+
   .button-2.startnow.tipsbutton {
     width: 350px;
   }
@@ -2804,6 +2876,14 @@
     width: 200px;
     padding-right: 10px;
     padding-left: 10px;
+  }
+
+  .button-2.startnow.football.referrerurl.featurescta {
+    width: 40vw;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    font-size: 2vw;
+    line-height: 1.5rem;
   }
 
   .div-block-6 {
@@ -2834,17 +2914,14 @@
   }
 
   .div-block-7.rightbutton.homepage.firstcta.landingpage {
+    margin-top: 20px;
     margin-bottom: 0px;
   }
 
   .div-block-9 {
     width: 100%;
-  }
-
-  .div-block-9.threeconvincers {
-    width: 100%;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 
   .div-block-9.youcan {
@@ -2867,10 +2944,6 @@
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
     justify-content: flex-start;
-  }
-
-  .div-block-9.herosection.releasenotes {
-    padding-top: 40px;
   }
 
   .div-block-9.herosection.terms {
@@ -2918,15 +2991,31 @@
 
   .copyright {
     width: 100%;
+    font-size: 1.5vw;
+    line-height: 2.5vw;
   }
 
   .brand {
-    width: 16%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    margin-left: 20px;
     padding-left: 0px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
     -webkit-box-flex: 0;
     -webkit-flex: 0 auto;
     -ms-flex: 0 auto;
     flex: 0 auto;
+    text-align: left;
   }
 
   .brand.w--current {
@@ -2934,10 +3023,15 @@
   }
 
   .nav-menu {
-    width: 26%;
+    position: static;
+    display: block;
+    width: auto;
     padding-right: 0px;
-    padding-left: 20px;
+    padding-left: 2vw;
+    background-color: #dceefb;
     text-align: right;
+    background-clip: border-box;
+    -webkit-text-fill-color: inherit;
   }
 
   .grid {
@@ -2945,19 +3039,6 @@
     grid-template-columns: 1fr 1fr 1fr;
     -ms-grid-rows: 1fr auto;
     grid-template-rows: 1fr auto;
-  }
-
-  .grid-2 {
-    margin-right: 20px;
-    margin-left: 20px;
-    padding: 0px;
-  }
-
-  .grid-2.releasenoteslegend {
-    margin-right: 0px;
-    margin-left: 0px;
-    grid-column-gap: 30px;
-    grid-row-gap: 20px;
   }
 
   .grid-3 {
@@ -2976,12 +3057,20 @@
     margin-left: 20px;
   }
 
-  .div-block-14 {
-    margin-top: 40px;
+  .menu-button {
+    display: none;
+    overflow: visible;
+    width: 100%;
+    padding-right: 0px;
+    text-align: right;
   }
 
-  .pricingdivlightborders {
-    margin-top: 10px;
+  .menu-button.w--open {
+    background-color: #003e6b;
+  }
+
+  .div-block-14 {
+    margin-top: 40px;
   }
 
   .div-block-18 {
@@ -2989,12 +3078,7 @@
   }
 
   .div-block-19 {
-    width: 25%;
-  }
-
-  .releasenoteslegendicon {
-    max-width: 3rem;
-    font-size: 1rem;
+    width: 25vw;
   }
 
   .releasecontainer.releasewhite {
@@ -3008,14 +3092,6 @@
     -webkit-align-items: stretch;
     -ms-flex-align: stretch;
     align-items: stretch;
-  }
-
-  .releasecontainer.releaseblue {
-    margin-top: 40px;
-    margin-bottom: 0px;
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
   }
 
   .releaseheading {
@@ -3033,11 +3109,6 @@
     font-weight: 300;
   }
 
-  .releasesectionheading {
-    margin-top: 20px;
-    font-size: 1.25rem;
-  }
-
   .releasenoteitemgrid {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -3047,13 +3118,10 @@
     padding-left: 60px;
   }
 
-  .releaselegend {
-    font-size: 0.875rem;
-    font-weight: 400;
-  }
-
   .navbargroupdiv {
-    width: 45%;
+    display: none;
+    overflow: visible;
+    width: 100%;
   }
 
   .text-block-5 {
@@ -3065,20 +3133,24 @@
     margin-top: 0px;
     padding-right: 0px;
     padding-left: 0px;
-    font-size: 1.25rem;
-    line-height: 1.75rem;
+    font-size: 2.2vw;
+    line-height: 2.7vw;
   }
 
   .text-block-5.pullquote.landingpage {
     margin-top: 0px;
-    font-size: 1.25rem;
-    line-height: 1.75rem;
+    font-size: 2.2vw;
+    line-height: 2.7vw;
   }
 
   .text-block-5.pullquoteauthor {
     margin-bottom: 0px;
     padding-left: 0px;
     font-size: 1rem;
+  }
+
+  .list-3.homepage {
+    margin-bottom: 0px;
   }
 
   .list-item-4 {
@@ -3095,6 +3167,31 @@
   .text-block-7.moneycollected.landingpage {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .icon {
+    color: #dceefb;
+    text-align: right;
+  }
+
+  .div-block-23 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
   }
 
   .div-block-24 {
@@ -3114,6 +3211,44 @@
 
   .testimonialdiv.patrick {
     margin-top: 0px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .testimonialdiv.davesnook {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .testimonialdiv.simonthomas {
+    margin-top: 0px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .testimonialdiv.pricing.patricksteed {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .testimonialdiv.anniep {
+    padding-top: 0px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .text-block-8.pricingnorisk {
+    margin-top: 5px;
+    font-size: 2vw;
+    line-height: 2.5vw;
   }
 
   .div-block-26 {
@@ -3126,8 +3261,10 @@
   }
 
   .tipstext {
+    padding-left: 20px;
     font-size: 1rem;
     line-height: 1.5rem;
+    text-align: center;
   }
 
   .leadmagnetheader {
@@ -3155,16 +3292,21 @@
     grid-template-columns: 1fr 1fr;
   }
 
+  .text-block-9.pricing {
+    font-size: 2.1vw;
+    line-height: 2.5rem;
+  }
+
   .div-block-31 {
-    width: 25%;
+    width: 25vw;
   }
 
   .div-block-32 {
-    width: 25%;
+    width: 20vw;
   }
 
   .div-block-33 {
-    width: 255px;
+    width: 20vw;
     padding-left: 20px;
     text-align: left;
   }
@@ -3229,6 +3371,10 @@
   .newhomecollectmoneydiv {
     margin-top: 20px;
   }
+
+  .list-4 {
+    width: 25vw;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -3265,6 +3411,14 @@
 
   .footer {
     padding: 40px 20px;
+  }
+
+  .footer-heading {
+    font-size: 2vw;
+  }
+
+  .footer-link {
+    font-size: 1.7vw;
   }
 
   .navbar {
@@ -3414,6 +3568,14 @@
     width: 100%;
   }
 
+  .button-2.startnow.football.referrerurl.featurescta {
+    width: 65vw;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    font-size: 3.2vw;
+    line-height: 4.5vw;
+  }
+
   .div-block-7.rightbutton.homepage.firstcta.landingpage {
     margin-top: 40px;
     margin-bottom: 0px;
@@ -3427,13 +3589,17 @@
     padding-top: 20px;
   }
 
+  .copyright {
+    font-size: 1.7vw;
+  }
+
   .brand {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     width: 100%;
-    padding-left: 40px;
+    padding-left: 0px;
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
@@ -3474,13 +3640,6 @@
   .image-3 {
     width: 80px;
     max-width: 60%;
-  }
-
-  .grid-2 {
-    -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
-    -ms-grid-rows: auto auto;
-    grid-template-rows: auto auto;
   }
 
   .grid-3 {
@@ -3548,7 +3707,7 @@
   }
 
   .div-block-19 {
-    width: 21%;
+    width: 21vw;
   }
 
   .list-2.privacypolicy {
@@ -3572,6 +3731,16 @@
   }
 
   .text-block-5.pullquote.landingpage {
+    font-size: 3.8vw;
+    line-height: 5.2vw;
+  }
+
+  .text-block-5.pullquote.landingpage.davesnook {
+    font-size: 3.8vw;
+    line-height: 5.2vw;
+  }
+
+  .text-block-5.pullquote.landingpage.anniep {
     font-size: 3.8vw;
     line-height: 5.2vw;
   }
@@ -3687,6 +3856,11 @@
     margin-bottom: 0px;
   }
 
+  .text-block-8.pricingnorisk {
+    font-size: 2.5vw;
+    line-height: 3vw;
+  }
+
   .div-block-26 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -3776,16 +3950,22 @@
     font-size: 1rem;
   }
 
+  .text-block-9.pricing.introoffer {
+    margin-top: 40px;
+    font-size: 3.6vw;
+    line-height: 1.9rem;
+  }
+
   .div-block-31 {
-    width: 30%;
+    width: 25vw;
   }
 
   .div-block-32 {
-    width: 23%;
+    width: 23vw;
   }
 
   .div-block-33 {
-    width: 15%;
+    width: 15vw;
   }
 
   .herogrid {
@@ -3805,8 +3985,10 @@
     align-items: start;
     grid-auto-flow: row;
     grid-auto-rows: 1fr;
-    -ms-grid-rows: minmax(200px, 1fr);
-    grid-template-rows: minmax(200px, 1fr);
+    -ms-grid-columns: minmax(0px, auto);
+    grid-template-columns: minmax(0px, auto);
+    -ms-grid-rows: minmax(200px, auto);
+    grid-template-rows: minmax(200px, auto);
   }
 
   .affiliatestrategieslist {
@@ -3890,6 +4072,11 @@
     padding: 40px 20px;
   }
 
+  .bg-white.secondtestimonial.newhome {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
   .bg-white.newhome-features {
     padding-top: 40px;
     padding-bottom: 40px;
@@ -3929,7 +4116,7 @@
   }
 
   .bg-alternate.bottomtestimonial {
-    padding: 0px 20px 40px;
+    padding: 40px 20px;
   }
 
   .bg-alternate.landingpagefaq {
@@ -3957,6 +4144,14 @@
     padding-left: 20px;
   }
 
+  .bg-alternate.tervtestimonial {
+    padding-top: 40px;
+  }
+
+  .bg-alternate.davesnooktestimonial {
+    padding-top: 40px;
+  }
+
   .footer {
     padding-right: 20px;
     padding-left: 20px;
@@ -3977,11 +4172,13 @@
 
   .footer-heading {
     margin-top: 20px;
+    font-size: 4vw;
+    line-height: 6vw;
   }
 
   .footer-link {
-    font-size: 0.875rem;
-    line-height: 1.25rem;
+    font-size: 4.5vw;
+    line-height: 6vw;
   }
 
   .navbar {
@@ -4031,8 +4228,8 @@
   }
 
   .heading.pageheader.landingpage.cricket.althero.newhome {
-    font-size: 6.6vw;
-    line-height: 7.2vw;
+    font-size: 5.3vw;
+    line-height: 7vw;
   }
 
   .heading.pageheader.landingpage.cricket.althero.newhome.affiliates {
@@ -4082,7 +4279,7 @@
   }
 
   .heading.featureheader.neutral1.twoways.introheader {
-    font-size: 6.5vw;
+    font-size: 5.7vw;
     line-height: 8.5vw;
   }
 
@@ -4157,6 +4354,7 @@
 
   .button.homehero {
     width: 100%;
+    margin-top: 40px;
     margin-bottom: 20px;
     padding-top: 8px;
     font-size: 1rem;
@@ -4192,6 +4390,13 @@
     line-height: 1.7rem;
   }
 
+  .button-2.startnow.bottombutton.referrerurl.pricingcta {
+    padding-right: 2vw;
+    padding-left: 2vw;
+    font-size: 5.5vw;
+    line-height: 7vw;
+  }
+
   .button-2.startnow.football {
     margin-top: 0px;
   }
@@ -4204,8 +4409,19 @@
     width: 100%;
   }
 
+  .button-2.startnow.football.referrerurl.terv {
+    padding-right: 20px;
+    padding-left: 20px;
+    font-weight: 600;
+  }
+
   .button-2.startnow.football.referrerurl.two-methods {
     width: 100%;
+    height: 24vw;
+    margin-bottom: 10px;
+    padding: 20px 10px;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 
   .button-2.startnow.football.referrerurl.lazarou {
@@ -4217,6 +4433,12 @@
     width: 100%;
   }
 
+  .button-2.startnow.football.referrerurl.featurescta {
+    width: 100%;
+    font-size: 4.4vw;
+    line-height: 6vw;
+  }
+
   .div-block-6 {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -4226,7 +4448,7 @@
   }
 
   .div-block-6.bottompricingbutton.pricing.football {
-    margin-top: 0px;
+    margin-top: 10px;
   }
 
   .div-block-7.rightbutton {
@@ -4247,6 +4469,14 @@
     -ms-flex-align: center;
     align-items: center;
     text-align: left;
+  }
+
+  .div-block-9.copyrightdiv {
+    height: 108px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
   }
 
   .div-block-9.startcollecting {
@@ -4279,6 +4509,15 @@
     width: 20%;
     margin-right: 10px;
     margin-left: 0px;
+  }
+
+  .copyright {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    font-size: 3.1vw;
+    line-height: 5vw;
   }
 
   .brand {
@@ -4324,17 +4563,6 @@
     text-align: left;
   }
 
-  .grid-2 {
-    margin-right: 10px;
-    margin-left: 10px;
-  }
-
-  .grid-2.releasenoteslegend {
-    grid-auto-flow: column;
-    -ms-grid-rows: auto auto auto auto;
-    grid-template-rows: auto auto auto auto;
-  }
-
   .grid-3 {
     margin-right: 10px;
     margin-left: 10px;
@@ -4355,7 +4583,7 @@
   }
 
   .div-block-12.paylogos {
-    margin-top: 0px;
+    margin-top: 20px;
     -webkit-justify-content: space-around;
     -ms-flex-pack: distribute;
     justify-content: space-around;
@@ -4398,16 +4626,7 @@
     width: 100%;
   }
 
-  .releasenoteslegendicon {
-    max-width: 3rem;
-  }
-
   .releasecontainer.releasewhite {
-    padding-right: 10px;
-    padding-left: 10px;
-  }
-
-  .releasecontainer.releaseblue {
     padding-right: 10px;
     padding-left: 10px;
   }
@@ -4417,12 +4636,6 @@
   }
 
   .releasedatetext {
-    text-align: center;
-  }
-
-  .releasesectionheading {
-    font-size: 1.3125rem;
-    line-height: 1.75rem;
     text-align: center;
   }
 
@@ -4436,17 +4649,6 @@
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
-  }
-
-  .releasenoteitemcategory {
-    display: block;
-    max-width: 3rem;
-    margin-bottom: 10px;
-    -webkit-align-self: center;
-    -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center;
-    text-align: left;
   }
 
   .releasenoteitemdescription {
@@ -4486,18 +4688,30 @@
     width: auto;
     margin-top: 20px;
     margin-left: 0px;
-    font-size: 1.25rem;
-    line-height: 1.75rem;
+    font-size: 6vw;
+    line-height: 8vw;
   }
 
   .text-block-5.pullquote.landingpage {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
+    font-size: 4.4vw;
+    line-height: 5.3vw;
+  }
+
+  .text-block-5.pullquote.landingpage.davesnook {
+    font-size: 6vw;
+    line-height: 7vw;
+  }
+
+  .text-block-5.pullquote.landingpage.anniep {
+    margin-bottom: 20px;
+    font-size: 5vw;
+    line-height: 7vw;
   }
 
   .text-block-5.pullquoteauthor {
     margin-left: 0px;
-    font-size: 0.875rem;
+    font-size: 4.1vw;
+    line-height: 5.3vw;
   }
 
   .text-block-5.football {
@@ -4555,7 +4769,33 @@
 
   .div-block-24 {
     width: 50%;
-    margin-top: 20px;
+    margin-top: 0px;
+  }
+
+  .div-block-24.anniepphoto {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 75%;
+    margin: 0px 20px 30px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    text-align: center;
   }
 
   .div-block-25 {
@@ -4575,18 +4815,48 @@
     align-items: center;
   }
 
-  .text-block-8 {
-    font-weight: 400;
+  .testimonialdiv.davesnook {
+    margin-top: 0px;
+    padding-top: 0px;
   }
 
-  .text-block-8.football {
-    margin-bottom: 0px;
+  .testimonialdiv.simonthomas {
+    margin-top: 0px;
+  }
+
+  .testimonialdiv.anniep {
+    padding-top: 20px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .image-8 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .text-block-8 {
+    font-size: 4.6vw;
+    line-height: 5.3vw;
+    font-weight: 400;
   }
 
   .text-block-8.homehero {
     margin-bottom: 10px;
     font-size: 0.875rem;
     line-height: 1.2rem;
+  }
+
+  .text-block-8.pricingnorisk {
+    font-size: 4vw;
+    line-height: 4.5vw;
+    text-align: left;
   }
 
   .div-block-26 {
@@ -4637,7 +4907,9 @@
   }
 
   .leadmagnetheader {
-    font-size: 1.3rem;
+    width: 100%;
+    font-size: 6.1vw;
+    line-height: 6.5vw;
   }
 
   .collecttext {
@@ -4659,13 +4931,27 @@
     font-size: 1rem;
   }
 
+  .pricingdefinition.pricing {
+    font-size: 4.2vw;
+    line-height: 5vw;
+  }
+
   .text-block-9 {
     font-size: 1rem;
     line-height: 1.5rem;
   }
 
+  .text-block-9.pricing {
+    font-size: 5vw;
+    line-height: 1.4rem;
+  }
+
+  .text-block-9.pricing.introoffer {
+    margin-top: 40px;
+  }
+
   .div-block-31 {
-    width: 100%;
+    width: 90vw;
     margin-bottom: 20px;
   }
 
@@ -4687,13 +4973,12 @@
   }
 
   .herogrid.newhome {
-    padding-right: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
+    padding: 20px;
+    grid-auto-flow: row;
     grid-auto-rows: 1.5fr;
-    grid-row-gap: 10vw;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(200px, 0.75fr));
+    grid-row-gap: 1vw;
+    grid-template-columns: repeat(auto-fit, minmax(0%, 100%));
+    grid-template-rows: repeat(auto-fit, minmax(0%, 100%));
   }
 
   .herogrid.newhome.affiliates {
@@ -4776,13 +5061,11 @@
   }
 
   .invoicemethoddiv {
-    padding-right: 20px;
-    padding-left: 20px;
+    padding: 40px 20px;
   }
 
   .pingmethoddiv {
-    padding-right: 20px;
-    padding-left: 20px;
+    padding: 40px 20px;
   }
 
   .image-12 {
@@ -4793,9 +5076,21 @@
     margin-top: 0px;
     margin-bottom: 20px;
   }
+
+  .list-4 {
+    width: 90vw;
+  }
+
+  .list-5 {
+    width: 90vw;
+  }
+
+  .image-14 {
+    width: 100%;
+  }
 }
 
-#w-node-_01931dfa-73e3-c5b2-4e55-199fa809f580-b6588f76 {
+#w-node-_01931dfa-73e3-c5b2-4e55-199fa809f580-b2f726f9 {
   -ms-grid-row: 1;
   grid-row-start: 1;
   -ms-grid-row-span: 2;
@@ -4806,7 +5101,7 @@
   grid-column-end: 3;
 }
 
-#w-node-_17d6e588-18ac-4e66-5bf5-268da30a568f-b6588f76 {
+#w-node-_17d6e588-18ac-4e66-5bf5-268da30a568f-b2f726f9 {
   -ms-grid-column-span: 1;
   grid-column-end: 2;
   -ms-grid-column: 1;
@@ -4826,7 +5121,7 @@
   justify-self: auto;
 }
 
-#w-node-_01931dfa-73e3-c5b2-4e55-199fa809f580-5f588f80 {
+#w-node-d9d75c13-9968-eaef-467e-fd28017195cd-9bf72701 {
   -ms-grid-row: 1;
   grid-row-start: 1;
   -ms-grid-row-span: 2;
@@ -4837,7 +5132,7 @@
   grid-column-end: 3;
 }
 
-#w-node-_17d6e588-18ac-4e66-5bf5-268da30a568f-5f588f80 {
+#w-node-d9d75c13-9968-eaef-467e-fd28017195ce-9bf72701 {
   -ms-grid-column-span: 1;
   grid-column-end: 2;
   -ms-grid-column: 1;
@@ -4848,7 +5143,29 @@
   grid-row-start: 1;
 }
 
-#w-node-_01931dfa-73e3-c5b2-4e55-199fa809f580-2f588f81 {
+#w-node-_01931dfa-73e3-c5b2-4e55-199fa809f580-4bf72703 {
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-row-span: 2;
+  grid-row-end: 3;
+  -ms-grid-column: 2;
+  grid-column-start: 2;
+  -ms-grid-column-span: 1;
+  grid-column-end: 3;
+}
+
+#w-node-_17d6e588-18ac-4e66-5bf5-268da30a568f-4bf72703 {
+  -ms-grid-column-span: 1;
+  grid-column-end: 2;
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-row-span: 2;
+  grid-row-end: 3;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+}
+
+#w-node-_01931dfa-73e3-c5b2-4e55-199fa809f580-53f72704 {
   -ms-grid-row: 1;
   grid-row-start: 1;
   -ms-grid-row-span: 2;
@@ -4859,7 +5176,7 @@
   grid-column-end: 3;
 }
 
-#w-node-e1794f17-60e7-a47d-1205-5d9e816d204a-2f588f81 {
+#w-node-e1794f17-60e7-a47d-1205-5d9e816d204a-53f72704 {
   -ms-grid-column: 1;
   grid-column-start: 1;
   -ms-grid-column-span: 2;
@@ -4870,7 +5187,7 @@
   grid-row-end: 2;
 }
 
-#w-node-_01931dfa-73e3-c5b2-4e55-199fa809f580-1f588f82 {
+#w-node-_01931dfa-73e3-c5b2-4e55-199fa809f580-15f72705 {
   -ms-grid-row: 1;
   grid-row-start: 1;
   -ms-grid-row-span: 2;
@@ -4881,7 +5198,7 @@
   grid-column-end: 3;
 }
 
-#w-node-e1794f17-60e7-a47d-1205-5d9e816d204a-1f588f82 {
+#w-node-e1794f17-60e7-a47d-1205-5d9e816d204a-15f72705 {
   -ms-grid-column: 2;
   grid-column-start: 2;
   -ms-grid-column-span: 1;
@@ -4892,7 +5209,7 @@
   grid-row-end: 2;
 }
 
-#w-node-_7babcd4c-bb4c-5c02-f517-478426695b27-8b588f84 {
+#w-node-_7babcd4c-bb4c-5c02-f517-478426695b27-d1f72707 {
   -ms-grid-column-span: 2;
   grid-column-end: 3;
   -ms-grid-column: 1;
@@ -4903,7 +5220,7 @@
   grid-row-start: 1;
 }
 
-#w-node-f3fccbe9-39a1-be47-8f09-05cded21c237-8b588f84 {
+#w-node-f3fccbe9-39a1-be47-8f09-05cded21c237-d1f72707 {
   -ms-grid-column-span: 2;
   grid-column-end: 3;
   -ms-grid-column: 1;
@@ -4914,7 +5231,7 @@
   grid-row-start: 2;
 }
 
-#w-node-_01931dfa-73e3-c5b2-4e55-199fa809f580-24588f85 {
+#w-node-_01931dfa-73e3-c5b2-4e55-199fa809f580-4ff72708 {
   -ms-grid-row: 1;
   grid-row-start: 1;
   -ms-grid-row-span: 2;
@@ -4925,7 +5242,7 @@
   grid-column-end: 3;
 }
 
-#w-node-_17d6e588-18ac-4e66-5bf5-268da30a568f-24588f85 {
+#w-node-_17d6e588-18ac-4e66-5bf5-268da30a568f-4ff72708 {
   -ms-grid-column-span: 1;
   grid-column-end: 2;
   -ms-grid-column: 1;
@@ -4936,7 +5253,7 @@
   grid-row-start: 1;
 }
 
-#w-node-_8cbc940e-6a0d-6da5-ed13-b4de5028cacb-c1588f8b {
+#w-node-_8cbc940e-6a0d-6da5-ed13-b4de5028cacb-38f7270e {
   -ms-grid-column-span: 2;
   grid-column-end: 3;
   -ms-grid-column: 1;
@@ -4947,7 +5264,7 @@
   grid-row-start: 1;
 }
 
-#w-node-bdbf747f-8ce8-abab-e5b2-efa59ee5b56e-c1588f8b {
+#w-node-bdbf747f-8ce8-abab-e5b2-efa59ee5b56e-38f7270e {
   -ms-grid-column-span: 2;
   grid-column-end: 3;
   -ms-grid-column: 1;
@@ -4958,7 +5275,7 @@
   grid-row-start: 1;
 }
 
-#w-node-_01931dfa-73e3-c5b2-4e55-199fa809f580-1d588f8e {
+#w-node-_01931dfa-73e3-c5b2-4e55-199fa809f580-88f72711 {
   -ms-grid-row: 1;
   grid-row-start: 1;
   -ms-grid-row-span: 2;
@@ -4969,29 +5286,7 @@
   grid-column-end: 3;
 }
 
-#w-node-_17d6e588-18ac-4e66-5bf5-268da30a568f-1d588f8e {
-  -ms-grid-column-span: 1;
-  grid-column-end: 2;
-  -ms-grid-column: 1;
-  grid-column-start: 1;
-  -ms-grid-row-span: 2;
-  grid-row-end: 3;
-  -ms-grid-row: 1;
-  grid-row-start: 1;
-}
-
-#w-node-d9d75c13-9968-eaef-467e-fd28017195cd-92943785 {
-  -ms-grid-row: 1;
-  grid-row-start: 1;
-  -ms-grid-row-span: 2;
-  grid-row-end: 3;
-  -ms-grid-column: 2;
-  grid-column-start: 2;
-  -ms-grid-column-span: 1;
-  grid-column-end: 3;
-}
-
-#w-node-d9d75c13-9968-eaef-467e-fd28017195ce-92943785 {
+#w-node-_17d6e588-18ac-4e66-5bf5-268da30a568f-88f72711 {
   -ms-grid-column-span: 1;
   grid-column-end: 2;
   -ms-grid-column: 1;
@@ -5003,7 +5298,7 @@
 }
 
 @media screen and (max-width: 991px) {
-  #w-node-_01931dfa-73e3-c5b2-4e55-199fa809f580-b6588f76 {
+  #w-node-_01931dfa-73e3-c5b2-4e55-199fa809f580-b2f726f9 {
     -ms-grid-column: 1;
     grid-column-start: 1;
     -ms-grid-column-span: 1;
@@ -5012,7 +5307,7 @@
     grid-row-end: 2;
   }
 
-  #w-node-_17d6e588-18ac-4e66-5bf5-268da30a568f-b6588f76 {
+  #w-node-_17d6e588-18ac-4e66-5bf5-268da30a568f-b2f726f9 {
     -ms-grid-row: 2;
     grid-row-start: 2;
     -ms-grid-column: 1;
@@ -5058,7 +5353,7 @@
     grid-row-end: 3;
   }
 
-  #w-node-d9d75c13-9968-eaef-467e-fd28017195cd-92943785 {
+  #w-node-d9d75c13-9968-eaef-467e-fd28017195cd-9bf72701 {
     -ms-grid-column: 1;
     grid-column-start: 1;
     -ms-grid-column-span: 1;
@@ -5067,7 +5362,7 @@
     grid-row-end: 2;
   }
 
-  #w-node-d9d75c13-9968-eaef-467e-fd28017195ce-92943785 {
+  #w-node-d9d75c13-9968-eaef-467e-fd28017195ce-9bf72701 {
     -ms-grid-row: 2;
     grid-row-start: 2;
     -ms-grid-column: 1;
@@ -5082,7 +5377,7 @@
 }
 
 @media screen and (max-width: 767px) {
-  #w-node-_01931dfa-73e3-c5b2-4e55-199fa809f580-b6588f76 {
+  #w-node-_01931dfa-73e3-c5b2-4e55-199fa809f580-b2f726f9 {
     -ms-grid-column: 1;
     grid-column-start: 1;
     -ms-grid-row-span: 2;
@@ -5091,7 +5386,7 @@
     grid-column-end: 2;
   }
 
-  #w-node-_17d6e588-18ac-4e66-5bf5-268da30a568f-b6588f76 {
+  #w-node-_17d6e588-18ac-4e66-5bf5-268da30a568f-b2f726f9 {
     -ms-grid-column-span: 2;
     grid-column-end: 2;
     -ms-grid-row: 2;
@@ -5188,14 +5483,32 @@
     grid-row-start: 8;
   }
 
-  #w-node-_01931dfa-73e3-c5b2-4e55-199fa809f580-5f588f80 {
+  #w-node-d9d75c13-9968-eaef-467e-fd28017195cd-9bf72701 {
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-row-span: 2;
+    grid-row-end: 2;
+    -ms-grid-column-span: 1;
+    grid-column-end: 2;
+  }
+
+  #w-node-d9d75c13-9968-eaef-467e-fd28017195ce-9bf72701 {
+    -ms-grid-column-span: 2;
+    grid-column-end: 2;
+    -ms-grid-row: 2;
+    grid-row-start: 2;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+  }
+
+  #w-node-_01931dfa-73e3-c5b2-4e55-199fa809f580-4bf72703 {
     -ms-grid-column: 1;
     grid-column-start: 1;
     -ms-grid-row-span: 2;
     grid-row-end: 2;
   }
 
-  #w-node-_17d6e588-18ac-4e66-5bf5-268da30a568f-5f588f80 {
+  #w-node-_17d6e588-18ac-4e66-5bf5-268da30a568f-4bf72703 {
     -ms-grid-column-span: 3;
     grid-column-end: 3;
     -ms-grid-row: 2;
@@ -5204,7 +5517,7 @@
     align-self: auto;
   }
 
-  #w-node-_6f92c638-7adf-1537-dc34-b3664291b90e-5f588f80 {
+  #w-node-_6f92c638-7adf-1537-dc34-b3664291b90e-4bf72703 {
     -ms-grid-column-span: 1;
     grid-column-end: 2;
     -ms-grid-column: 1;
@@ -5215,7 +5528,7 @@
     grid-row-start: 2;
   }
 
-  #w-node-_6f92c638-7adf-1537-dc34-b3664291b917-5f588f80 {
+  #w-node-_6f92c638-7adf-1537-dc34-b3664291b917-4bf72703 {
     -ms-grid-column-span: 1;
     grid-column-end: 2;
     -ms-grid-column: 1;
@@ -5226,7 +5539,7 @@
     grid-row-start: 1;
   }
 
-  #w-node-_6f92c638-7adf-1537-dc34-b3664291b91e-5f588f80 {
+  #w-node-_6f92c638-7adf-1537-dc34-b3664291b91e-4bf72703 {
     -ms-grid-column-span: 1;
     grid-column-end: 2;
     -ms-grid-column: 1;
@@ -5237,7 +5550,7 @@
     grid-row-start: 3;
   }
 
-  #w-node-_6f92c638-7adf-1537-dc34-b3664291b925-5f588f80 {
+  #w-node-_6f92c638-7adf-1537-dc34-b3664291b925-4bf72703 {
     -ms-grid-column-span: 1;
     grid-column-end: 2;
     -ms-grid-column: 1;
@@ -5248,7 +5561,7 @@
     grid-row-start: 4;
   }
 
-  #w-node-_6f92c638-7adf-1537-dc34-b3664291b931-5f588f80 {
+  #w-node-_6f92c638-7adf-1537-dc34-b3664291b931-4bf72703 {
     -ms-grid-column-span: 1;
     grid-column-end: 2;
     -ms-grid-column: 1;
@@ -5259,7 +5572,7 @@
     grid-row-start: 6;
   }
 
-  #w-node-_6f92c638-7adf-1537-dc34-b3664291b93d-5f588f80 {
+  #w-node-_6f92c638-7adf-1537-dc34-b3664291b93d-4bf72703 {
     -ms-grid-column-span: 1;
     grid-column-end: 2;
     -ms-grid-column: 1;
@@ -5270,7 +5583,7 @@
     grid-row-start: 5;
   }
 
-  #w-node-_6f92c638-7adf-1537-dc34-b3664291b944-5f588f80 {
+  #w-node-_6f92c638-7adf-1537-dc34-b3664291b944-4bf72703 {
     -ms-grid-column-span: 1;
     grid-column-end: 2;
     -ms-grid-column: 1;
@@ -5281,7 +5594,7 @@
     grid-row-start: 7;
   }
 
-  #w-node-_6f92c638-7adf-1537-dc34-b3664291b94b-5f588f80 {
+  #w-node-_6f92c638-7adf-1537-dc34-b3664291b94b-4bf72703 {
     -ms-grid-column-span: 1;
     grid-column-end: 2;
     -ms-grid-column: 1;
@@ -5292,14 +5605,14 @@
     grid-row-start: 8;
   }
 
-  #w-node-_01931dfa-73e3-c5b2-4e55-199fa809f580-24588f85 {
+  #w-node-_01931dfa-73e3-c5b2-4e55-199fa809f580-4ff72708 {
     -ms-grid-column: 1;
     grid-column-start: 1;
     -ms-grid-row-span: 2;
     grid-row-end: 2;
   }
 
-  #w-node-_17d6e588-18ac-4e66-5bf5-268da30a568f-24588f85 {
+  #w-node-_17d6e588-18ac-4e66-5bf5-268da30a568f-4ff72708 {
     -ms-grid-column-span: 3;
     grid-column-end: 3;
     -ms-grid-row: 2;
@@ -5308,34 +5621,16 @@
     align-self: auto;
   }
 
-  #w-node-_01931dfa-73e3-c5b2-4e55-199fa809f580-1d588f8e {
+  #w-node-_01931dfa-73e3-c5b2-4e55-199fa809f580-88f72711 {
     -ms-grid-column: 1;
     grid-column-start: 1;
     -ms-grid-row-span: 2;
     grid-row-end: 2;
   }
 
-  #w-node-_17d6e588-18ac-4e66-5bf5-268da30a568f-1d588f8e {
+  #w-node-_17d6e588-18ac-4e66-5bf5-268da30a568f-88f72711 {
     -ms-grid-column-span: 3;
     grid-column-end: 3;
-    -ms-grid-row: 2;
-    grid-row-start: 2;
-    -ms-grid-row-align: auto;
-    align-self: auto;
-  }
-
-  #w-node-d9d75c13-9968-eaef-467e-fd28017195cd-92943785 {
-    -ms-grid-column: 1;
-    grid-column-start: 1;
-    -ms-grid-row-span: 2;
-    grid-row-end: 2;
-    -ms-grid-column-span: 1;
-    grid-column-end: 2;
-  }
-
-  #w-node-d9d75c13-9968-eaef-467e-fd28017195ce-92943785 {
-    -ms-grid-column-span: 2;
-    grid-column-end: 2;
     -ms-grid-row: 2;
     grid-row-start: 2;
     -ms-grid-row-align: auto;
@@ -5344,7 +5639,7 @@
 }
 
 @media screen and (max-width: 479px) {
-  #w-node-_01931dfa-73e3-c5b2-4e55-199fa809f580-b6588f76 {
+  #w-node-_01931dfa-73e3-c5b2-4e55-199fa809f580-b2f726f9 {
     -ms-grid-column: 1;
     grid-column-start: 1;
     -ms-grid-column-span: 1;
@@ -5355,7 +5650,7 @@
     align-self: start;
   }
 
-  #w-node-_17d6e588-18ac-4e66-5bf5-268da30a568f-b6588f76 {
+  #w-node-_17d6e588-18ac-4e66-5bf5-268da30a568f-b2f726f9 {
     -ms-grid-row: 2;
     grid-row-start: 2;
   }
@@ -5371,55 +5666,7 @@
     grid-row-end: 4;
   }
 
-  #w-node-_01931dfa-73e3-c5b2-4e55-199fa809f580-5f588f80 {
-    -ms-grid-column: 1;
-    grid-column-start: 1;
-    -ms-grid-column-span: 1;
-    grid-column-end: 2;
-    -ms-grid-row-span: 2;
-    grid-row-end: 2;
-  }
-
-  #w-node-_17d6e588-18ac-4e66-5bf5-268da30a568f-5f588f80 {
-    -ms-grid-row: 2;
-    grid-row-start: 2;
-    -ms-grid-column-span: 2;
-    grid-column-end: 2;
-  }
-
-  #w-node-_01931dfa-73e3-c5b2-4e55-199fa809f580-24588f85 {
-    -ms-grid-column: 1;
-    grid-column-start: 1;
-    -ms-grid-column-span: 1;
-    grid-column-end: 2;
-    -ms-grid-row-span: 2;
-    grid-row-end: 2;
-  }
-
-  #w-node-_17d6e588-18ac-4e66-5bf5-268da30a568f-24588f85 {
-    -ms-grid-row: 2;
-    grid-row-start: 2;
-    -ms-grid-column-span: 2;
-    grid-column-end: 2;
-  }
-
-  #w-node-_01931dfa-73e3-c5b2-4e55-199fa809f580-1d588f8e {
-    -ms-grid-column: 1;
-    grid-column-start: 1;
-    -ms-grid-column-span: 1;
-    grid-column-end: 2;
-    -ms-grid-row-span: 2;
-    grid-row-end: 2;
-  }
-
-  #w-node-_17d6e588-18ac-4e66-5bf5-268da30a568f-1d588f8e {
-    -ms-grid-row: 2;
-    grid-row-start: 2;
-    -ms-grid-column-span: 2;
-    grid-column-end: 2;
-  }
-
-  #w-node-d9d75c13-9968-eaef-467e-fd28017195cd-92943785 {
+  #w-node-d9d75c13-9968-eaef-467e-fd28017195cd-9bf72701 {
     -ms-grid-column: 1;
     grid-column-start: 1;
     -ms-grid-column-span: 1;
@@ -5430,9 +5677,57 @@
     align-self: start;
   }
 
-  #w-node-d9d75c13-9968-eaef-467e-fd28017195ce-92943785 {
+  #w-node-d9d75c13-9968-eaef-467e-fd28017195ce-9bf72701 {
     -ms-grid-row: 2;
     grid-row-start: 2;
+  }
+
+  #w-node-_01931dfa-73e3-c5b2-4e55-199fa809f580-4bf72703 {
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: 2;
+    -ms-grid-row-span: 2;
+    grid-row-end: 2;
+  }
+
+  #w-node-_17d6e588-18ac-4e66-5bf5-268da30a568f-4bf72703 {
+    -ms-grid-row: 2;
+    grid-row-start: 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: 2;
+  }
+
+  #w-node-_01931dfa-73e3-c5b2-4e55-199fa809f580-4ff72708 {
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: 2;
+    -ms-grid-row-span: 2;
+    grid-row-end: 2;
+  }
+
+  #w-node-_17d6e588-18ac-4e66-5bf5-268da30a568f-4ff72708 {
+    -ms-grid-row: 2;
+    grid-row-start: 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: 2;
+  }
+
+  #w-node-_01931dfa-73e3-c5b2-4e55-199fa809f580-88f72711 {
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: 2;
+    -ms-grid-row-span: 2;
+    grid-row-end: 2;
+  }
+
+  #w-node-_17d6e588-18ac-4e66-5bf5-268da30a568f-88f72711 {
+    -ms-grid-row: 2;
+    grid-row-start: 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: 2;
   }
 }
 
