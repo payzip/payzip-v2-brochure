@@ -1053,6 +1053,7 @@
 }
 
 .div-block-9.startcollecting.topbutton {
+  width: 64%;
   margin-top: 0px;
   margin-bottom: 0px;
 }
@@ -1257,6 +1258,13 @@
   color: #003e6b;
   font-size: 2.25rem;
   line-height: 2.75rem;
+}
+
+.heading-2.blogposts {
+  margin-bottom: 30px;
+  color: #102a43;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
 }
 
 .pricingtransactionfee {
@@ -1584,8 +1592,9 @@
   padding-left: 42px;
   background-image: url('../images/check-circle.svg');
   background-position: 0% 50%;
-  background-size: contain;
+  background-size: auto 1.5rem;
   background-repeat: no-repeat;
+  background-attachment: scroll;
   font-size: 1.125rem;
 }
 
@@ -2327,6 +2336,31 @@
 
 .anniepbold {
   color: #102a43;
+}
+
+.usefulblogpostscontainer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1000px;
+}
+
+.usefulblogposts {
+  width: 33%;
+  max-height: 50%;
+  margin-left: 40px;
+  padding: 20px 30px;
+  border-radius: 14px;
+  background-color: #d9e2ec;
+}
+
+.bloglink {
+  display: block;
+  margin-bottom: 20px;
+  color: #003e6b;
+  font-size: 1.125rem;
+  font-weight: 300;
 }
 
 @media screen and (min-width: 1280px) {
@@ -3073,6 +3107,11 @@
     margin-top: 40px;
   }
 
+  .heading-2.blogposts {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+  }
+
   .div-block-18 {
     width: auto;
   }
@@ -3375,6 +3414,17 @@
   .list-4 {
     width: 25vw;
   }
+
+  .usefulblogposts {
+    max-height: 45%;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .bloglink {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -3587,6 +3637,10 @@
 
   .div-block-9.herosection {
     padding-top: 20px;
+  }
+
+  .div-block-9.startcollecting.topbutton {
+    width: 100%;
   }
 
   .copyright {
@@ -4064,6 +4118,24 @@
 
   .link-block {
     text-align: center;
+  }
+
+  .usefulblogpostscontainer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .usefulblogposts {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+
+  .bloglink {
+    margin-bottom: 10px;
   }
 }
 
