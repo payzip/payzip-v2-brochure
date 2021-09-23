@@ -1,10 +1,11 @@
+http://payzip.co.uk/ https://www.payzip.co.uk/
+http://www.payzip.co.uk/ https://www.payzip.co.uk/
 https://help.payzip.co.uk/members/revisit-excluding-a-member-from-receiving-payment-reminders https://docs.payzip.co.uk/article/99-turning-off-reminders-for-a-member
 https://help.payzip.co.uk/members/what-is-payzip-penarth-and-why-is-it-on-my-card-statement https://www.payzip.co.uk/
 https://help.payzip.co.uk/categories https://docs.payzip.co.uk/
 https://help.payzip.co.uk/* https://docs.payzip.co.uk/:splat 301!
 http://help.payzip.co.uk/* https://docs.payzip.co.uk/:splat 301!
 payzip.co.uk/terms-conditions.html https://www.payzip.co.uk/terms-and-conditions.html
-http://payzip.co.uk/ https://www.payzip.co.uk/
 http://www.payzip.co.uk/* https://www.payzip.co.uk/:splat 301!
 https://payzip.co.uk/* https://www.payzip.co.uk/:splat 301!
 https://www.payzip.co.uk// https://www.payzip.co.uk/
