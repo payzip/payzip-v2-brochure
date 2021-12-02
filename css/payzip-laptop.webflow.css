@@ -40,7 +40,7 @@
 
 .bg-white.secondtestimonial.newhome {
   padding-bottom: 60px;
-  background-color: #d9e2ec;
+  background-color: transparent;
 }
 
 .bg-white.secondtestimonial.newhome.pricing {
@@ -128,7 +128,7 @@
 .bg-alternate.leadmagnet {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #e0fcff;
+  background-color: #dceefb;
 }
 
 .bg-alternate.bottomtestimonial {
@@ -141,8 +141,8 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -160,7 +160,7 @@
 .bg-alternate.newhomebenefits {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: #f0f4f8;
+  background-color: #fff;
 }
 
 .bg-alternate.affiliate {
