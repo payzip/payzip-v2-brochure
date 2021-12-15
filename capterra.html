@@ -1,5 +1,5 @@
 <!DOCTYPE html><!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Mon Dec 13 2021 10:38:00 GMT+0000 (Coordinated Universal Time)  -->
+<!--  Last Published: Wed Dec 15 2021 08:44:40 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="61a9e0ed45247b727ae92357" data-wf-site="60e9e665da34b0156a5b825e" lang="en-GB">
 <head>
   <meta charset="utf-8">
@@ -60,7 +60,7 @@
         <a href="https://dashboard.payzip.co.uk/signup" rel="noopener" class="nav-link-5 primary1 w-nav-link">Sign up</a>
       </div>
       <a href="https://dashboard.payzip.co.uk/signin" rel="noopener" class="nav-link-2 w-nav-link">Sign in</a>
-      <a rel="nofollow" href="https://dashboard.payzip.co.uk/signup" class="button referrerurl w-button">Try it now</a>
+      <a id="btnTryNowNav" rel="noopener" href="https://dashboard.payzip.co.uk/signup" target="_blank" class="button referrerurl w-button">Try it now</a>
     </nav>
     <div class="menu-button w-nav-button">
       <div class="icon w-icon-nav-menu"></div>
@@ -70,13 +70,15 @@
     <h1 class="heading pageheader landingpage cricket althero newhome capterra">Club payments made simple</h1>
   </div>
   <div class="bg-transparent capterra">
-    <div class="capterracontainer w-container"><img src="images/dualscreenshots.png" loading="lazy" srcset="images/dualscreenshots.png 500w, images/dualscreenshots.png 800w, images/dualscreenshots.png 1000w" sizes="(max-width: 767px) 92vw, (max-width: 991px) 728px, 940px" alt="" class="image-9 newhome capterra">
+    <div class="capterracontainer w-container"><img src="images/dualscreenshots.png" loading="lazy" srcset="images/dualscreenshots-p-500.png 500w, images/dualscreenshots-p-800.png 800w, images/dualscreenshots.png 1000w" sizes="(max-width: 767px) 92vw, (max-width: 991px) 728px, 940px" alt="A green Payzip receipt screenshot marked &quot;paid&quot; floating in front of a Payzip dashboard screenshot showing a recent list of member payments for the example &quot;April monthly club membership&quot; invoice run" class="image-9 newhome capterra">
       <div class="landingpageherotitle subtitle">
         <div class="text-block primary1 herobody newhome capterra">Organise, track and collect your club payments<br>with a simple platform your members will love<br></div>
         <div class="div-block-34 capterra">
           <div class="newhomecollectmoneydiv capterra">
-            <a href="#whatis" class="button homehero w-button">Learn more</a>
+            <a href="https://dashboard.payzip.co.uk/signup" id="btnTryNowTop" rel="noopener" target="_blank" class="button homehero w-button">Try it now - collect first £100 for free</a>
           </div>
+          <div class="text-block-8 brighttext">Special offer: collect your first £100 by card/mobile payment without any fees</div>
+          <div class="text-block-8 brighttext"><strong>Risk-free:</strong> No setup fees. No subscription. Payzip is pay-as-you-go. Stop anytime.</div>
         </div>
       </div>
     </div>
@@ -133,27 +135,31 @@
   </div>
   <div class="bg-alternate bottomtestimonial capterra wf-section">
     <div class="div-block-9">
-      <h2 class="heading featureheader neutral1 twoways introheader capterradashboardheader">Meet your new dashboard</h2><img src="images/meetnewdashboard.png" loading="lazy" sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 1279px) 96vw, 1000px" srcset="images/meetnewdashboard.png 500w, images/meetnewdashboard.png 800w, images/meetnewdashboard.png 1080w, images/meetnewdashboard.png 1600w, images/meetnewdashboard.png 2000w, images/meetnewdashboard.png 2600w, images/meetnewdashboard.png 2726w" alt="" class="dashboardscreenshot">
+      <h2 class="heading featureheader neutral1 twoways introheader capterradashboardheader">Meet your new dashboard</h2><img src="images/meetnewdashboard.png" loading="lazy" sizes="(max-width: 479px) 92vw, (max-width: 767px) 95vw, (max-width: 1279px) 96vw, 1000px" srcset="images/meetnewdashboard-p-500.png 500w, images/meetnewdashboard-p-800.png 800w, images/meetnewdashboard-p-1080.png 1080w, images/meetnewdashboard-p-1600.png 1600w, images/meetnewdashboard-p-2000.png 2000w, images/meetnewdashboard-p-2600.png 2600w, images/meetnewdashboard.png 2726w" alt="Payzip&#x27;s dashboard, showing:
+1. Who owes what - which of your invoice runs have unpaid invoices within them
+2. Club key figures - header figures showing total owed, total overdue, and the current balance of the next weekly payout
+3. Proactive alerts - in this case an email address which is invalid, and Payzip is prompting the user to correct it
+4. A simple sidebar menu which contains everything you need to use the system in a handful of items - Invoices, Pings, Payments, Payouts, and Members." class="dashboardscreenshot">
       <ul role="list" class="bythenumberslist">
-        <li class="list-item-5"><img src="images/Number1.png" loading="lazy" alt="" class="image-15">
+        <li class="list-item-5"><img src="images/Number1.png" loading="lazy" alt="Large &quot;Number 1&quot; bulletpoint" class="image-15">
           <div class="div-block-35">
             <h3 class="heading-3 numberedlist">See who owes what</h3>
             <div class="text-block-11">Save time with your <em>hit list</em> of overdue payments and what they’re for.</div>
           </div>
         </li>
-        <li class="list-item-5"><img src="images/Number2.png" loading="lazy" alt="" class="image-15">
+        <li class="list-item-5"><img src="images/Number2.png" loading="lazy" alt="Large &quot;Number 2&quot; bulletpoint" class="image-15">
           <div class="div-block-35">
             <h3 class="heading-3 numberedlist">See key club figures at-a-glance</h3>
             <div class="text-block-11">Total owed, total overdue, and the current next weekly payout amount.</div>
           </div>
         </li>
-        <li class="list-item-5"><img src="images/Number3.png" loading="lazy" alt="" class="image-15">
+        <li class="list-item-5"><img src="images/Number3.png" loading="lazy" alt="Large &quot;Number 3&quot; bulletpoint" class="image-15">
           <div class="div-block-35">
             <h3 class="heading-3 numberedlist">Get proactive alerts</h3>
             <div class="text-block-11">Know when members can’t be reached. Fix their email address and automatically resend their outstanding invoices.</div>
           </div>
         </li>
-        <li class="list-item-5"><img src="images/Number4.png" loading="lazy" alt="" class="image-15">
+        <li class="list-item-5"><img src="images/Number4.png" loading="lazy" alt="Large &quot;Number 4&quot; bulletpoint" class="image-15">
           <div class="div-block-35">
             <h3 class="heading-3 numberedlist">Nothing complex to learn</h3>
             <div class="text-block-11">Everything you need in one simple sidebar - it&#x27;s ludicrously easy to use.</div>
@@ -161,9 +167,9 @@
         </li>
       </ul>
       <div class="div-block-7 rightbutton homepage firstcta landingpage">
-        <a href="https://dashboard.payzip.co.uk/signup" id="btnTryNow" target="_blank" class="button-2 startnow football referrerurl capterra w-button">Try now - collect £100 for free</a>
-        <div class="text-block-8">Introductory offer: collect your first £100 by card/mobile payment without any fees</div>
-        <div class="text-block-8"><strong>Risk-free:</strong> No setup fees. No subscription. Payzip is pay-as-you-go.</div>
+        <a href="https://dashboard.payzip.co.uk/signup" id="btnTryNowBtm" rel="noopener" target="_blank" class="button-2 startnow football referrerurl capterra w-button">Try now - collect £100 for free</a>
+        <div class="text-block-8">Special offer: collect your first £100 by card/mobile payment without any fees</div>
+        <div class="text-block-8"><strong>Risk-free:</strong> No setup fees. No subscription. Payzip is pay-as-you-go. Stop anytime.</div>
       </div>
     </div>
   </div>
@@ -292,15 +298,6 @@
       window.Beacon('init', '832a5578-e9b6-447a-a017-bd8b2903fa8c')
     </script>
   <script>
-      window.SavvyCal = window.SavvyCal || function() {
-        (SavvyCal.q = SavvyCal.q || []).push(arguments)
-      };
-    </script>
-  <script async="" src="https://embed.savvycal.com/v1/embed.js"></script>
-  <script>
-      SavvyCal('init')
-    </script>
-  <script>
       const setCookie = (name, value, expiry) => {
         let expires = ""
         if (expiry) {
@@ -339,7 +336,39 @@
       getCookie()
     </script>
   <script type="text/javascript">
-      var buttonId = 'btnTryNow';
+      var buttonId = 'btnTryNowNav';
+      function trackingListener() {
+        var capterra_vkey = 'd5adb4b094778a503a65e6db59d0db5a',
+          capterra_vid = '2200331',
+          ct = document.createElement('img');
+        ct.src = 'https://ct.capterra.com/capterra_tracker.gif?vid=' +
+          capterra_vid + '&vkey=' + capterra_vkey;
+        document.body.appendChild(ct);
+      };
+      var button = document.getElementById(buttonId);
+      button.addEventListener(
+        'click',
+        trackingListener
+      );
+    </script>
+  <script type="text/javascript">
+      var buttonId = 'btnTryNowTop';
+      function trackingListener() {
+        var capterra_vkey = 'd5adb4b094778a503a65e6db59d0db5a',
+          capterra_vid = '2200331',
+          ct = document.createElement('img');
+        ct.src = 'https://ct.capterra.com/capterra_tracker.gif?vid=' +
+          capterra_vid + '&vkey=' + capterra_vkey;
+        document.body.appendChild(ct);
+      };
+      var button = document.getElementById(buttonId);
+      button.addEventListener(
+        'click',
+        trackingListener
+      );
+    </script>
+  <script type="text/javascript">
+      var buttonId = 'btnTryNowBtm';
       function trackingListener() {
         var capterra_vkey = 'd5adb4b094778a503a65e6db59d0db5a',
           capterra_vid = '2200331',
