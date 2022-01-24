@@ -2106,7 +2106,6 @@
   margin-bottom: auto;
   border: 0px solid #003e6b;
   border-radius: 5px;
-  box-shadow: 6px 6px 11px 0 #000;
 }
 
 .image-9.newhome.lazarou {
@@ -2119,7 +2118,6 @@
 .image-9.newhome.capterra {
   border-style: none;
   border-radius: 0px;
-  box-shadow: none;
 }
 
 .heroimagegrid {
@@ -2583,6 +2581,10 @@
 
   .text-block.primary1.herobody.newhome.capterra {
     margin-top: 40px;
+  }
+
+  .button.homehero {
+    width: 50%;
   }
 
   .button-2.startnow.football.referrerurl.capterra {
@@ -3619,9 +3621,9 @@
   }
 
   .herogrid.newhome {
-    padding-right: 20px;
+    padding-right: 0px;
     padding-bottom: 60px;
-    padding-left: 20px;
+    padding-left: 0px;
     grid-auto-flow: row;
     -ms-grid-columns: minmax(200px, 1fr);
     grid-template-columns: minmax(200px, 1fr);
@@ -3639,8 +3641,7 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    margin-top: 10px;
-    margin-bottom: 0px;
+    margin: 10px 20px 0px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -4329,9 +4330,9 @@
 
   .herogrid.newhome {
     margin-bottom: 0px;
-    padding-right: 20px;
+    padding-right: 0px;
     padding-bottom: 0px;
-    padding-left: 20px;
+    padding-left: 0px;
     justify-items: stretch;
     -webkit-box-align: start;
     -webkit-align-items: start;
@@ -4343,6 +4344,11 @@
     grid-template-columns: minmax(0px, auto);
     -ms-grid-rows: minmax(200px, auto);
     grid-template-rows: minmax(200px, auto);
+  }
+
+  .div-block-34 {
+    margin-right: 20px;
+    margin-left: 20px;
   }
 
   .affiliatestrategieslist {
@@ -4500,7 +4506,7 @@
   .bg-white {
     width: 100%;
     height: auto;
-    padding: 40px 20px;
+    padding: 20px 20px 40px;
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
@@ -4560,7 +4566,7 @@
 
   .bg-alternate.trustedbysection {
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 0px;
   }
 
   .bg-alternate.newhomepricing {
@@ -4713,7 +4719,8 @@
   }
 
   .heading.featureheader.neutral1.twoways.introheader {
-    margin-top: 20px;
+    margin-top: 0px;
+    margin-bottom: 10px;
     font-size: 5.7vw;
     line-height: 8.5vw;
   }
@@ -5418,12 +5425,14 @@
   }
 
   .herogrid.newhome {
-    padding: 20px;
+    padding: 20px 0px;
     grid-auto-flow: row;
     grid-auto-rows: 1.5fr;
     grid-row-gap: 1vw;
     grid-template-columns: repeat(auto-fit, minmax(0%, 100%));
     grid-template-rows: repeat(auto-fit, minmax(0%, 100%));
+    -o-object-fit: fill;
+    object-fit: fill;
   }
 
   .herogrid.newhome.affiliates {
@@ -5466,6 +5475,8 @@
 
   .div-block-34 {
     margin-top: 0px;
+    margin-right: 20px;
+    margin-left: 20px;
   }
 
   .div-block-34.capterra {
